@@ -1,5 +1,5 @@
 import React from 'react';
-import Headline from './Headline';
+import Project from './Project';
 
 function ProjectList() {
   return (
@@ -7,9 +7,7 @@ function ProjectList() {
         <h3>Project Portfolio</h3>
         <div className="category">
             <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-12 project">
-                    <h5>Project Name</h5>
-                </div>
+                <Project />
             </div>
         </div>
     </section>
