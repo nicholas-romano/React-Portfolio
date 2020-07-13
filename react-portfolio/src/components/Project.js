@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TechItem from './TechItem';
 
 const Project = props => {
@@ -7,7 +7,7 @@ const Project = props => {
         tab: 'Description'
     })
 
-    const { id, title, description, projectImg, technologies, software } = props;
+    const { id, title, liveSite, gitRepo, description, projectImg, technologies, software } = props;
 
     const getLinks = (liveSite, gitRepo) => {
         if (liveSite !== undefined && gitRepo !== undefined) {
@@ -42,7 +42,7 @@ const Project = props => {
         <div id={id} className="col-lg-4 col-md-6 col-sm-12 project">
             <div className="project-container">
                 <h3>{title}</h3>
-                        {getLinks(props.liveSite, props.gitRepo)}
+                        {getLinks(liveSite, gitRepo)}
                     <img className="img-fluid" src={process.env.PUBLIC_URL + "images/project_thumbnails/" + projectImg} alt={title} />
                     <ul className="nav nav-tabs col-sm-12" id="recipe-book" role="tablist">
                         <li className="nav-item">
