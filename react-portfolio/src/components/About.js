@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from '../assets/images/Nick_Romano_Profile_Photo.jpg';
 
 function About() {
   return (
@@ -25,7 +24,7 @@ function About() {
               </div>
               <div className="col-lg-6">
                   <div className="column-content">
-                      <img src={photo} className="img-fluid" alt="Nick Romano Profile" />
+                      <img src={process.env.PUBLIC_URL + "/images/Nick_Romano_Profile_Photo.jpg"} className="img-fluid" alt="Nick Romano Profile" />
                   </div>
               </div>
             </div>

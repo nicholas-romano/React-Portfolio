@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-//import projectImages from '../assets/images/project_thumbnails/';
 
 const Project = props => {
 

@@ -1,0 +1,102 @@
+[
+    {
+        "programming": [
+            {
+                "skillImage": "html5-full.png",
+                "skillName": "HTML5"
+            },
+            {
+                "skillImage": "css3-full.png",
+                "skillName": "CSS3"
+            },
+            {
+                "skillImage": "bootstrap-full.jpg",
+                "skillName": "Bootstrap"
+            },
+            {
+                "skillImage": "javascript-full.png",
+                "skillName": "JavaScript"
+            },
+            {
+                "skillImage": "jquery-full.jpg",
+                "skillName": "JQuery"
+            },
+            {
+                "skillImage": "nodejs-full.jpg",
+                "skillName": "Node JS"
+            },
+            {
+                "skillImage": "expressjs-full.png",
+                "skillName": "Express JS"
+            },
+            {
+                "skillImage": "handlebars-full.png",
+                "skillName": "Handlebars JS"
+            },
+            {
+                "skillImage": "npm-full.png",
+                "skillName": "Node Package Manager"
+            },
+            {
+                "skillImage": "reactjs-full.png",
+                "skillName": "React JS"
+            },
+            {
+                "skillImage": "redux-full.png",
+                "skillName": "Redux"
+            },
+            {
+                "skillImage": "php-full.png",
+                "skillName": "PHP"
+            },
+            {
+                "skillImage": "sequelize-full.png",
+                "skillName": "Sequelize"
+            },
+            {
+                "skillImage": "mysql-full.jpg",
+                "skillName": "MySQL"
+            },
+            {
+                "skillImage": "rest-api-full.png",
+                "skillName": "Rest API"
+            },
+            {
+                "skillImage": "xml-full.png",
+                "skillName": "XML"
+            },
+            {
+                "skillImage": "es6-full.jpeg",
+                "skillName": "ES6"
+            }
+        ]
+    },
+    {
+        "design": [
+            {
+                "skillImage": "adobe-xd-logo-full.png",
+                "skillName": "Adobe XD"
+            },
+            {
+                "skillImage": "adobe-illustrator-full.png",
+                "skillName": "Adobe Illustrator"
+            },
+            {
+                "skillImage": "adobe-photoshop-full.jpg",
+                "skillName": "Adobe Photoshop"
+            },
+            {
+                "skillImage": "adobe-dreamweaver-full.png",
+                "skillName": "Adobe Dreamweaver"
+            },
+            {
+                "skillImage": "adobe-flash-full.jpeg",
+                "skillName": "Adobe Flash"
+            },
+            {
+                "skillImage": "adobe-indesign-full.png",
+                "skillName": "Adobe InDesign"
+            }
+        ]
+    }
+]

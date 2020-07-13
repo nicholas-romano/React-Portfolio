@@ -65,7 +65,7 @@ header {
     cursor: pointer; }
 
 #headline {
-  background-image: url("assets/images/headline_gears_img.jpg");
+  background-image: url("/images/headline_gears_img.jpg");
   color: black;
   text-align: center;
   padding-top: 110px;

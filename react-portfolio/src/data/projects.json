@@ -118,5 +118,53 @@
                 "softwareName": "MySQL Workbench"
             }
         ]
+    },
+    {
+        "id": 3,
+        "title": "Note Taker",
+        "liveSite": "https://note-taker-12.herokuapp.com/",
+        "gitRepo": "https://github.com/nicholas-romano/Note-Taker",
+        "projectImg": "Note-Taker_thumbnail.png",
+        "description": "This application is used to write and save notes to help users remember important information. It uses NodeJS, ExpressJS, and Node's filesytem package to save notes in JSON format using JQuery AJAX calls. Once a note is saved, the user can then view the saved notes in the left-hand column. When they click on a saved note, that note's details are displayed in the right-side content area and the user can then edit that prevously saved note. The application utilizes ExpressJS get route to get all note title and just one note details, a post route to create a new note, or to update a note, and a delete route to delete a saved note.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "expressjs-logo.png",
+                "techName": "Express JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "softwareImg": "visual-studio-logo.png",
+                "softwareName": "Visual Studio"
+            }
+        ]
     }
 ]
