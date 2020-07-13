@@ -23,6 +23,7 @@ function ProjectList() {
                 projectState.map(project => (
                   <Project 
                     key={project.id}
+                    id={project.id}
                     description={project.description}
                     projectImg={project.projectImg}
                     software={project.software}

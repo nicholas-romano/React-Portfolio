@@ -7,18 +7,42 @@ const Project = props => {
         tab: 'Description'
     })
 
-    const { id, title, liveSite, gitRepo, description, projectImg, technologies, software } = props;
+    const { id, title, description, projectImg, technologies, software } = props;
+
+    const getLinks = (liveSite, gitRepo) => {
+        if (liveSite !== undefined && gitRepo !== undefined) {
+            return (
+                <>
+                <a href={liveSite} title="Link to Live Site" rel="noopener noreferrer">
+                    <button type="button" className="action-btn btn btn-primary">Live Site</button>
+                </a>
+                <a href={gitRepo} title="Link to GitHub Repo" rel="noopener noreferrer">
+                    <button type="button" className="action-btn btn btn-primary">GitHub Repo</button>
+                </a>
+                </>
+            )
+        } else if (liveSite === undefined && gitRepo !== undefined) {
+            return (
+                <a href={gitRepo} title="Link to GitHub Repo"rel="noopener noreferrer">
+                    <button type="button" className="action-btn-full btn btn-primary">GitHub Repo</button>
+                </a>
+            )
+        } else if (liveSite !== undefined && gitRepo === undefined) {
+            return (
+                <a href={liveSite} title="Link to Live Site" rel="noopener noreferrer">
+                    <button type="button" className="action-btn-full btn btn-primary">Live Site</button>
+                </a>
+            )
+        } else if (liveSite === undefined && gitRepo === undefined) {
+            return <></>
+        }
+    }
 
     return (
         <div id={id} className="col-lg-4 col-md-6 col-sm-12 project">
             <div className="project-container">
                 <h3>{title}</h3>
-                        <a href={liveSite} title="Link to live site" rel="noopener noreferrer">
-                        <button type="button" className="action-btn btn btn-primary">Live Site</button>
-                        </a>
-                        <a href={gitRepo} title="Link to GitHub Repository" rel="noopener noreferrer">
-                        <button type="button" className="action-btn btn btn-primary">GitHub Repo</button>
-                        </a>
+                        {getLinks(props.liveSite, props.gitRepo)}
                     <img className="img-fluid" src={process.env.PUBLIC_URL + "images/project_thumbnails/" + projectImg} alt={title} />
                     <ul className="nav nav-tabs col-sm-12" id="recipe-book" role="tablist">
                         <li className="nav-item">

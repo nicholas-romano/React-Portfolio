@@ -44,6 +44,10 @@
                 "techName": "JQuery"
             },
             {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
                 "techImg": "github-logo.png",
                 "techName": "Git Hub"
             }
@@ -154,6 +158,57 @@
             {
                 "techImg": "jquery-logo.png",
                 "techName": "JQuery"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Employee Summary Template Engine",
+        "gitRepo": "https://github.com/nicholas-romano/Employee-Summary-Template-Engine",
+        "projectImg": "Employee-Summary-Template-Engine_thumbnail.png",
+        "description": "This application uses NodeJS in the command line (PC) or terminal (Mac) to prompt the user with questions for entering employees on an IT team. The user is asked questions based on employee type which can be either Manager, Engineer, or Intern and the can enter as many employees as they want. When they are done, the application compiles the data into a team.html file inside the Develop directory. They can then view this HTML file in their browser. This application uses a JavaScript Object Oriented programming style by using class modules for each employee type: Manager, Engineer, and Intern, and then creating an intance of each of those when needed and adding the data for each.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
             },
             {
                 "techImg": "github-logo.png",
