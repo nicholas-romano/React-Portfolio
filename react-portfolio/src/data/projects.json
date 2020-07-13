@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Recipes Book",
+        "liveSite": "https://create-recipe-book.herokuapp.com/",
+        "gitRepo": "https://github.com/nicholas-romano/Recipes-Book",
+        "projectImg": "Recipe-Book-thumbnail.png",
+        "description": "This application gives the user the ability to search for recipes by keyword, diet type, cuisine, or specific nutrition, and displays only recipes that fit that search criteria. It then allows the user to save recipes to their recipe book so that they can be viewed later. A recipe can be viewed from either the Spoonacular API, or from a saved recipe in the MySQL database. Each recipe has step-by-step instructions to complete a recipe, providing only information needed such as equipment, ingredients, and instructions with images to match.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "expressjs-logo.png",
+                "techName": "Express JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "sequelize-logo.png",
+                "techName": "Sequelize"
+            },
+            {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "softwareImg": "visual-studio-logo.png",
+                "softwareName": "Visual Studio"
+            },
+            {
+                "softwareImg": "mysql-workbench-logo.png",
+                "softwareName": "MySQL Workbench"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Burgers To Eat",
+        "liveSite": "https://burgers-to-eat.herokuapp.com/",
+        "gitRepo": "https://github.com/nicholas-romano/Burger",
+        "projectImg": "Burgers-to-eat_thumbnail.png",
+        "description": "This application gives the user the ability to enter information into a list, in this case a \"Burgers to Devour\" list, and then add each list item to to a second list, the \"Burgers Devoured\" list when each burger has been eaten. The application uses HandlbarsJS for and Bootstrap for the HTML templating to display the data, and uses a ExpressJs with an ORM connection to a MySQL database to store the burger data. Routes include a SelectAll method to display all the burgers stored in the database, insertOne method to add one to the database, an updateOne method to update a burger from \"to be devoured\" to \"devoured\", and a deleteOne function to delete a burger from the devoured list.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "expressjs-logo.png",
+                "techName": "Express JS"
+            },
+            {
+                "techImg": "handlebars-logo.png",
+                "techName": "Handlebars JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "softwareImg": "visual-studio-logo.png",
+                "softwareName": "Visual Studio"
+            },
+            {
+                "softwareImg": "mysql-workbench-logo.png",
+                "softwareName": "MySQL Workbench"
+            }
+        ]
+    }
+]
