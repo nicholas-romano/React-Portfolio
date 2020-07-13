@@ -7,19 +7,10 @@ function Skills() {
     const [programmingState, setProgrammingState] = useState([]);
     const [designState, setDesignState] = useState([]);
 
-
     useEffect(() => {
         setProgrammingState(skillsData[0].programming);
         setDesignState(skillsData[1].design);
     }, []);
-
-    useEffect(() => {
-        //console.log("programming state: ", programmingState);
-    }, [programmingState]);
-
-    useEffect(() => {
-        //console.log("design state: ", designState);
-    }, [designState]);
 
   return (
     <main>

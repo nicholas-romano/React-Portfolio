@@ -50,12 +50,12 @@
         ],
         "software": [
             {
-                "softwareImg": "visual-studio-logo.png",
-                "softwareName": "Visual Studio"
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
             },
             {
-                "softwareImg": "mysql-workbench-logo.png",
-                "softwareName": "MySQL Workbench"
+                "techImg": "mysql-workbench-logo.png",
+                "techName": "MySQL Workbench"
             }
         ]
     },
@@ -110,12 +110,12 @@
         ],
         "software": [
             {
-                "softwareImg": "visual-studio-logo.png",
-                "softwareName": "Visual Studio"
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
             },
             {
-                "softwareImg": "mysql-workbench-logo.png",
-                "softwareName": "MySQL Workbench"
+                "techImg": "mysql-workbench-logo.png",
+                "techName": "MySQL Workbench"
             }
         ]
     },
@@ -162,8 +162,8 @@
         ],
         "software": [
             {
-                "softwareImg": "visual-studio-logo.png",
-                "softwareName": "Visual Studio"
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
             }
         ]
     }

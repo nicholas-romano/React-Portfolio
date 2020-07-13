@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TechItem from './TechItem';
 
 const Project = props => {
 
@@ -9,7 +10,7 @@ const Project = props => {
     const { id, title, liveSite, gitRepo, description, projectImg, technologies, software } = props;
 
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12 project">
+        <div id={id} className="col-lg-4 col-md-6 col-sm-12 project">
             <div className="project-container">
                 <h3>{title}</h3>
                         <a href={liveSite} title="Link to live site" rel="noopener noreferrer">
@@ -38,27 +39,25 @@ const Project = props => {
                         <div className={tabState.tab === 'Technologies' ? 'tab-pane fade show active' : 'tab-pane fade'} id="recipe-book-technologies-content" role="tabpanel" aria-labelledby="technologies-tab">
                             <h5>Technologies Used:</h5>
                             {
-                                technologies.map((technology, index) => {
-                                    const { techImg, techName } = technology;
-                                    return (
-                                        <div key={index} className="tech-icons">
-                                            <img src={process.env.PUBLIC_URL + "images/icons/" + techImg} width="70" alt={techName} /><br />{technology.techName}
-                                        </div>
-                                    )
-                                })
+                                technologies.map((tech, index) => (
+                                    <TechItem
+                                        key={index}
+                                        techImg={tech.techImg}
+                                        techName={tech.techName}
+                                    />
+                                ))
                             }
                         </div>
                         <div className={tabState.tab === 'Software' ? 'tab-pane fade show active' : 'tab-pane fade'} role="tabpanel" aria-labelledby="software-tab">
                             <h5>Software used:</h5>
                             {
-                                software.map((software, index) => {
-                                    const { softwareImg, softwareName } = software;
-                                    return (
-                                        <div key={index} className="tech-icons">
-                                            <img src={process.env.PUBLIC_URL + "images/icons/" + softwareImg} width="70" alt={softwareName} /><br />{softwareName}
-                                        </div>
-                                    )
-                                })
+                                software.map((tech, index) => (
+                                    <TechItem
+                                        key={index}
+                                        techImg={tech.techImg}
+                                        techName={tech.techName}
+                                    />
+                                ))
                             }
                         </div>
                         </div>
