@@ -221,5 +221,516 @@
                 "techName": "Visual Studio"
             }
         ]
+    },
+    {
+        "id": 5,
+        "title": "README File Generator",
+        "gitRepo": "https://github.com/nicholas-romano/README-File-Generator",
+        "projectImg": "README-file-generator_thumbnail.png",
+        "description": "This application uses NodeJS from the command line to generate a README.md file for a web application uploaded to Github. It prompts the user with questions on how to get the project running, what dependencies are needed, usage instructions, any collaborators or third-party companies that contributed, whether or not there is a copyright or license registered with it, guidelines for how someone can contribute to it, and user tests that can verify the project is free from bugs. All formatting including ordered lists, bulleted lists, links, and images will all be converted to the markdown syntax to be displayed in Github.",
+        "technologies": [
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Places and News Search",
+        "liveSite": "https://nicholas-romano.github.io/Places-and-News-Search/",
+        "gitRepo": "https://github.com/nicholas-romano/Places-and-News-Search/",
+        "projectImg": "Places-and-News-Search_thumbnail.png",
+        "description": "I developed this application with a team of two other developers. It is a web application that allows the user to search for News and Places based on search criteria, gives the user the ability to view more photos and add the place or news story to their favorites list. I developed the Google Places API functionality which uses a search form that includes search criteria such as keyword, place name, location, type, and search radius. I also developed the view more photos pop-over, and the add to favorites button functionality. Another group member developed the News API form functionality which searches for news articles based on keywords, and the another group member designed the site using the Materialize CSS framework.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "materialize-logo.png",
+                "techName": "Materialize"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            },
+            {
+                "techImg": "photoshop-logo.png",
+                "techName": "Photoshop"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Weather Dashboard",
+        "liveSite": "https://nicholas-romano.github.io/Weather-Dashboard/",
+        "gitRepo": "https://github.com/nicholas-romano/Weather-Dashboard/",
+        "projectImg": "Weather-Dashboard_thumbnail.png",
+        "description": "This web application uses the Open Weather Map API and gives the user the ability to find the local forecast of any city, state, or country. When the user enter a location and clicks the search button, they are given the current weather forecast including the temperature, humidity, wind speed, and uv index which is color coded based on severity, and a five-day weather forecast for the next five days. The weather is indicated by an icon image depicting the type of precipitation. For instance, a sun is displayed for a sunny forecast, clouds for cloudy, rain clouds for rain, etc. The Moment JS framework was used to loop through the five day forecast.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "momentjs-logo.png",
+                "techName": "Moment JS"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            },
+            {
+                "techImg": "photoshop-logo.png",
+                "techName": "Photoshop"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Work Day Scheduler",
+        "liveSite": "https://nicholas-romano.github.io/Work-Day-Scheduler/",
+        "gitRepo": "https://github.com/nicholas-romano/Work-Day-Scheduler/",
+        "projectImg": "Work-Day-Scheduler_thumbnail.png",
+        "description": "This is a very useful application for those who like to plan-out their day. This application gives the user the ability to enter in pointer-events for each hour of the workday from 8am to 6pm. The current time is calculated using the moment.js javascript framework. The current hour block is highlighted yellow, while the past time blocks are gray, and the future time blocks are green. Only the green future time blocks are editable. The user enters in an event for inside a green timeblock and hits the save button on the rightside of the table. The event is then saved to the user's brower local storage array.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "momentjs-logo.png",
+                "techName": "Moment JS"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            },
+            {
+                "techImg": "photoshop-logo.png",
+                "techName": "Photoshop"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Code Quiz",
+        "liveSite": "https://nicholas-romano.github.io/Code-Quiz/",
+        "gitRepo": "https://github.com/nicholas-romano/Code-Quiz/",
+        "projectImg": "Code-Quiz_thumbnail.png",
+        "description": "This application is an interactive JavaScript Quiz Assessment which tests the user's JavaScript knowledge. The application is meant to have just a six question sample and it works by recording the user's right or wrong answers. The quiz is on a timer and the total time left when the quiz is complete will be the user's score. The quiz starts counting down from 75 and for every answer the user gets incorrect, 15 seconds are subtracted from the total time. For every answer the user gets correct, the count-down clock is uneffected. At the end of the quiz, the user can enter and submit their initials for the application to save their score inside a high-scores table containing scores saved in the browser's local storage. All of the scores are ranked from highest score to lowest score.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Password Generator",
+        "liveSite": "https://nicholas-romano.github.io/Password-Generator/",
+        "gitRepo": "https://github.com/nicholas-romano/Password-Generator/",
+        "projectImg": "Password-Generator_thumbnail.png",
+        "description": "This application utilizes the browser's window prompt function to accept user input and generate a password. The prompt sequence goes as followers: character length (minimum 8, maximum 128), special characters, numbers, uppercase letters, and lowercase letters. The user must respond with a valid number for character length, and respond 'y' for 'yes' to at least one of the last four criteria. After a password is generated, a copy button is displayed below it. When the user clicks the copy button, the password is automatically copied to the user's computer clipboard so they can paste it elsewhere.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Shoppers Stop",
+        "liveSite": "https://nicholas-romano.github.io/shoppers-stop/index.html",
+        "gitRepo": "https://github.com/nicholas-romano/Shoppers_Stop_App/",
+        "projectImg": "shoppers-stop-thumbnail.png",
+        "description": "This was an application I made that gives people a platform to make a shopping list and track their grocery expenses. Features include the ability to set a total funds amount, add items to the list, and add details to each item using an HTML5 range slider. Details include an items cost, calorie count, and weight. There is also a section on the right that calculates total cost, calories, and weight for all groceries purchased.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "react-js-logo.png",
+                "techName": "React JS"
+            },
+            {
+                "techImg": "redux-logo.png",
+                "techName": "Redux"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+            
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Stop Watch",
+        "liveSite": "https://nicholas-romano.github.io/stop-watch/index.html",
+        "gitRepo": "https://nicholas-romano.github.io/stop-watch/index.html",
+        "projectImg": "stop-watch-thumbnail.png",
+        "description": "The Stop watch starts at all zeros and counts up while tracking seconds, minutes and hours. There are four buttons: Start, Stop, Reset, and Lap. The buttons will enable/disable depending upon the activity taken by the user. For instance, in the initial state, the start button is enabled while all other buttons are disabled, and when the start button is pressed, the other buttons are enabled. After the timer has started, when the lap button is clicked, a table is displayed at the bottom that shows the first lap (1) in the table with a corresponding time next to it from when the lap button was pressed. This app is useful for runners.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "react-js-logo.png",
+                "techName": "React JS"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+            
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Movie Discovery",
+        "liveSite": "https://nicholas-romano.github.io/movie-discovery/",
+        "gitRepo": "https://github.com/nicholas-romano/Movie-Discovery/",
+        "projectImg": "movies-app_thumbnail.png",
+        "description": "This Movies Search Application uses an API from themoviedb.org and provides the user the capability of searching movie titles and then selecting which ones to add to their favorites list by clicking the heart icon at the bottom of each one. The favorites list appears on the favorites page when the favorites button is clicked. This application is a single-page React JS application that uses a browser router to dynamically change the content of the page by switching components.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "react-js-logo.png",
+                "techName": "React JS"
+            },
+            {
+                "techImg": "redux-logo.png",
+                "techName": "Redux"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+            
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Space Fighters Game",
+        "liveSite": "https://nicholas-romano.github.io/Space_Fighters/",
+        "gitRepo": "https://github.com/nicholas-romano/Space-Fighters-Game/",
+        "projectImg": "Space_Fighters_thumbnail.png",
+        "description": "This is an interactive computer game made solely with HTML5, CSS3, and JavaScript. The objective of the game is to shoot missles at enemy UFOs flying around on the screen and destroy all five while avoiding a collision attack which detroys their spaceship. The player is given three ships from the start. Music is played in the background and sound effects are applied to the launch of the missles, explosion of the UFOs, and rocketship when impacted.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+            
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            },
+            {
+                "techImg": "photoshop-logo.png",
+                "techName": "Photoshop"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Memory Card Game",
+        "liveSite": "https://nicholas-romano.github.io/Memory_Card_Game/match.html",
+        "gitRepo": "https://github.com/nicholas-romano/Memory_Card_Game/",
+        "projectImg": "memory_card_game_thumbnail.png",
+        "description": "This is a memory card game that uses a deck of 52 playing cards. The rules are: match two card names while ignoring the suit. For example, a 2 of clubs matches any other 2 regardless of suit. Therefore, there are 26 matches to find. The number of matches and attempts are tracked at the bottom, and a message is displayed at the top indicating whether a match was found or not. JavaScript is used to randomly shuffle the cards, flip them over on user click, and set the back design of each which can be set from the dropdown at the top.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+            
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            },
+            {
+                "techImg": "photoshop-logo.png",
+                "techName": "Photoshop"
+            },
+            {
+                "techImg": "illustrator-logo.png",
+                "techName": "Illustrator"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Rock Paper Scissors Game",
+        "liveSite": "https://nicholas-romano.github.io/Rock-Paper-Scissors_Game/rock_paper_scissors.html",
+        "projectImg": "rock_paper_scissors_thumbnail.png",
+        "description": "This is a rock-paper-scissors tournament using CSS3 animations that move the hands when a move is played against the computer. The tournament winner will need to win 3 games, 4 games, 5 games, etc whatever is chosen from the dropdown menu when the tournament starts.The hands and other graphics are made using Adobe Illustrator and the jQuery code takes care of the logic and calculates the amount of wins and losses between the user and the computer.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "atom-logo.png",
+                "techName": "Atom"
+            },
+            {
+                "techImg": "illustrator-logo.png",
+                "techName": "Illustrator"
+            }
+        ]
     }
 ]

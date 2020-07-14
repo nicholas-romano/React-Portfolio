@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 
 function Nav() {
+
+  const [activePage, setActivePage] = useState('');
+
+  useEffect(() => {
+    const route = window.location.href;
+    
+    if (route.indexOf('/about') !== -1) {
+      setActivePage('about');
+    } else if (route.indexOf('/skills') !== -1) {
+      setActivePage('skills');
+    } else if (route.indexOf('/contact') !== -1) {
+      setActivePage('contact');
+    } else {
+      setActivePage('portfolio');
+    }
+    
+  }, []);
+
+  const changeActivePage = page => {
+    setActivePage(page);
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-md">
@@ -11,20 +33,20 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <Link onClick={() => changeActivePage('about')} className={activePage === 'about' ? 'nav-link active' : 'nav-link'} to="/about">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/skills">Skills</Link>
+                    <Link onClick={() => changeActivePage('skills')} className={activePage === 'skills' ? 'nav-link active' : 'nav-link'} to="/skills">Skills</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/">Portfolio</Link>
+                    <Link onClick={() => changeActivePage('portfolio')} className={activePage === 'portfolio' ? 'nav-link active' : 'nav-link'} to="/">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link onClick={() => changeActivePage('contact')} className={activePage === 'contact' ? 'nav-link active' : 'nav-link'} to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
-        </nav>
+      </nav>
     </>
   );
 }
