@@ -212,10 +212,7 @@ section#project_porfolio.content_section {
 .required {
   color: red; }
 
-.name_error, .email_error, .message_error,
-.name_valid_error, .company_valid_error, .email_valid_error,
-.phone_valid_error, .message_valid_error, .recaptcha_error {
-  display: none;
+.error {
   color: red;
   font-size: 12px; }
 
