@@ -46,13 +46,13 @@ const Project = props => {
                     <img className="img-fluid" src={process.env.PUBLIC_URL + "images/project_thumbnails/" + projectImg} alt={title} />
                     <ul className="nav nav-tabs col-sm-12" id="recipe-book" role="tablist">
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Description' ? 'nav-link active' : 'nav-link'} id="recipe-book-description" onClick={() => setTabState({tab: 'Description'})} data-toggle="tab" href="javascript:void(0)" role="tab" aria-controls="Description" aria-selected="true">Description</a>
+                            <a className={tabState.tab === 'Description' ? 'nav-link active' : 'nav-link'} id="recipe-book-description" onClick={() => setTabState({tab: 'Description'})} data-toggle="tab" role="tab" aria-controls="Description" aria-selected="true">Description</a>
                         </li>
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Technologies' ? 'nav-link active' : 'nav-link'} id="recipe-book-technologies" data-toggle="tab" onClick={() => setTabState({tab: 'Technologies'})} href="javascript:void(0)" role="tab" aria-controls="Technologies" aria-selected="false">Technologies</a>
+                            <a className={tabState.tab === 'Technologies' ? 'nav-link active' : 'nav-link'} id="recipe-book-technologies" data-toggle="tab" onClick={() => setTabState({tab: 'Technologies'})} role="tab" aria-controls="Technologies" aria-selected="false">Technologies</a>
                         </li>
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Software' ? 'nav-link active' : 'nav-link'} id="recipe-book-software" data-toggle="tab" onClick={() => setTabState({tab: 'Software'})} href="javascript:void(0)" role="tab" aria-controls="Software" aria-selected="false">Software</a>
+                            <a className={tabState.tab === 'Software' ? 'nav-link active' : 'nav-link'} id="recipe-book-software" data-toggle="tab" onClick={() => setTabState({tab: 'Software'})} role="tab" aria-controls="Software" aria-selected="false">Software</a>
                         </li>
                     </ul>
                         <div id="recipe-book-content" className="tab-content project-description">

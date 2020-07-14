@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 
-function Nav() {
+const Nav = () => {
 
   const [activePage, setActivePage] = useState('');
 
@@ -25,7 +25,6 @@ function Nav() {
   }
 
   return (
-    <>
       <nav className="navbar navbar-expand-md">
             <button className="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -47,7 +46,6 @@ function Nav() {
               </ul>
             </div>
       </nav>
-    </>
   );
 }
 

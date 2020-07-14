@@ -15,11 +15,6 @@ const Contact = () => {
     message: ''
   });
 
-  useEffect(() => {
-    //console.log('name: ', formValues.name)
-    //console.log('company: ', formValues.company)
-  }, [formValues]);
-
   const onSubmit = data => {
     console.log(data);
   }
@@ -91,11 +86,8 @@ const Contact = () => {
                 </div>
   
             </div>
-  
           </section>
-
       </section>
-      
     </main>
   );
 }

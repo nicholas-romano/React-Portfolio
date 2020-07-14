@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
       <p>Designed and Developed by Nick Romano | Raleigh, NC</p>

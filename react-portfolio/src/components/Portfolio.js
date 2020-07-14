@@ -2,7 +2,7 @@ import React from 'react';
 import Headline from './Headline';
 import ProjectList from './ProjectList';
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <main>
         <Headline />

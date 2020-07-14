@@ -1,10 +1,9 @@
 import React from 'react';
 import Nav from './Nav';
 
-function Header() {
+const Header = () => {
   return (
-    <>
-      <header>   
+    <header>   
         <div id="banner">
           <h1>Nick Romano</h1>
           <h3>Full-Stack Web Developer</h3>
@@ -17,7 +16,6 @@ function Header() {
           <Nav />
         </div>
     </header>
-    </>
   );
 }
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Project from './Project';
 import projectData from '../data/projects.json';
 
-function ProjectList() {
+const ProjectList = () => {
 
   const [projectState, setProjectState] = useState([]);
 

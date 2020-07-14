@@ -116,10 +116,16 @@ div.tab-content.project-description {
 
 .project .nav.nav-tabs .nav-item {
   display: inline;
-  background-color: #eee; }
+  background-color: #eee; 
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .project .nav-tabs .nav-item.show .nav-link, .nav-tabs {
-  background-color: #eee; }
+  background-color: #eee; 
+  color: black;
+  cursor: pointer;
+}
 
 section#project_porfolio.content_section {
   padding: 15px;
