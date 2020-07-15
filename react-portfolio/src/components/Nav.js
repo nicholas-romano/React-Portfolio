@@ -7,13 +7,17 @@ const Nav = () => {
 
   useEffect(() => {
     const route = window.location.href;
+
+    console.log('route: ', route);
     
-    if (route.indexOf('/about') !== -1) {
+    if (route.lastIndexOf('/about') !== -1) {
       setActivePage('about');
-    } else if (route.indexOf('/skills') !== -1) {
+    } else if (route.lastIndexOf('/skills') !== -1) {
       setActivePage('skills');
-    } else if (route.indexOf('/contact') !== -1) {
+    } else if (route.lastIndexOf('/contact') !== -1) {
       setActivePage('contact');
+    } else if (route.lastIndexOf('/') !== -1) {
+      setActivePage('portfolio');
     } else {
       setActivePage('portfolio');
     }
