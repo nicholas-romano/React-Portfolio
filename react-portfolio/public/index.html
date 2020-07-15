@@ -30,6 +30,17 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="company" />
+      <input type="email" name="email" />
+      <input type="text" name="phone1" />
+      <input type="text" name="phone2" />
+      <input type="text" name="phone3" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.

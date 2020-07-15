@@ -15,10 +15,6 @@ const Contact = () => {
     message: ''
   });
 
-  const onSubmit = data => {
-    console.log(data);
-  }
-
   return (
     <main>
       <section className="content_section">
@@ -30,7 +26,8 @@ const Contact = () => {
                         what I can do, please don’t hesitate to ask here. I am more than happy
                         to answer questions you have.</p>
                     <p className="required"> * Indicates a required field.</p>
-                    <form onSubmit={handleSubmit(onSubmit)} id="contact_form" name="contact" method="POST" data-netlify="true" className="form-horizontal">
+                    <form id="contact" name="contact" method="post" className="form-horizontal">
+                      <input type="hidden" name="form-name" value="contact" />
                       <div className="form-group">
                         <label htmlFor="Name" className="col-sm-1 control-label"><span className="required">*</span>Name</label>
                         <div className="col-sm-12">
