@@ -52,7 +52,9 @@ header {
   #banner nav .navbar-nav .nav-link.active {
     color: #cc0000;
     text-shadow: 3px 3px 3px #fff;
-    border-bottom: 2px solid #262B5E; }
+    border-bottom: 2px solid #262B5E;
+    background-color: white;
+   }
   #banner .resume-download {
     text-align: center; }
     #banner .resume-download img {
@@ -297,7 +299,7 @@ footer {
     padding-top: 178px; 
   }
   .navbar-nav .nav-link {
-    color: white;
+    color: black; 
     text-align: center;
     background-color: #EBEBEB;
     opacity: .8;
@@ -310,12 +312,13 @@ footer {
   .navbar-toggler:hover {
     cursor: pointer; }
   .nav-item .nav-link {
-    color: white;
+    color: black;
     text-align: center;
     background-color: #EBEBEB;
     opacity: .8;
     padding: 10px 20px;
-    margin: 0; }
+    margin: 0; 
+  }
   .headline-text {
     margin-left: 15px;
     margin-right: 15px; }
@@ -326,8 +329,8 @@ footer {
     padding: 10px 20px;
     text-align: center; }
   .dropdown-item:hover {
-    background-color: #EBEBEB;
-    color: white; }
+    background-color: white;
+    color: black; }
   .project .nav.nav-tabs .nav-item .nav-link.active {
     background-color: white;
     color: black; }
