@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import { useForm } from 'react-hook-form';
 
 const Contact = () => {
@@ -48,7 +48,7 @@ const Contact = () => {
                       <div className="form-group">
                         <label htmlFor="Email" className="col-sm-1 control-label"><span className="required">*</span>Email</label>
                         <div className="col-sm-12">
-                          <input type="email" onChange={e => setFormVal({ ...formValues, email: e.target.value})} className="form-control" ref={register({required: true, pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})$/})} id="email" name="email" placeholder="Email" maxLength="60" />
+                          <input type="email" onChange={e => setFormVal({ ...formValues, email: e.target.value})} className="form-control" ref={register({required: true, pattern: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})$/})} id="email" name="email" placeholder="Email" maxLength="60" />
                           {errors.email && <p className="error">Email field is invalid</p>}
                         </div>
                       </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                       <div className="form-group">
                         <label htmlFor="Message" className="col-sm-1 control-label"><span className="required">*</span>Message</label>
                         <div className="col-sm-12">
-                            <textarea onChange={e => setFormVal({ ...formValues, message: e.target.value})} className="form-control" ref={register({required: true, minLength: 2, pattern: /^['-\w\.$!\d,?/@();]+['-\w\s\.$!\d,?/@();]+$/})} id="message" name="message" rows="3" maxLength="1000"></textarea>
+                            <textarea onChange={e => setFormVal({ ...formValues, message: e.target.value})} className="form-control" ref={register({required: true, minLength: 2, pattern: /^['-\w.$!\d,?/@();]+['-\w\s.$!\d,?/@();]+$/})} id="message" name="message" rows="3" maxLength="1000"></textarea>
                             {errors.message && <p className="error">Message field is invalid</p>}
                         </div>
                       </div>

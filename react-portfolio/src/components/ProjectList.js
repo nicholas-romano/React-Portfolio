@@ -10,10 +10,6 @@ const ProjectList = () => {
     setProjectState(projectData);
   }, []);
 
-  useEffect(() => {
-    console.log("project state: ", projectState);
-  }, [projectState]);
-
   return (
     <section id="project_porfolio" className="content_section">
         <h3>Project Portfolio</h3>

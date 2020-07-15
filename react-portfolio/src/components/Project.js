@@ -46,13 +46,13 @@ const Project = props => {
                     <img className="img-fluid" src={process.env.PUBLIC_URL + "images/project_thumbnails/" + projectImg} alt={title} />
                     <ul className="nav nav-tabs col-sm-12" id="recipe-book" role="tablist">
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Description' ? 'nav-link active' : 'nav-link'} id="recipe-book-description" onClick={() => setTabState({tab: 'Description'})} data-toggle="tab" role="tab" aria-controls="Description" aria-selected="true">Description</a>
+                            <button className={tabState.tab === 'Description' ? 'nav-link active' : 'nav-link'} id="recipe-book-description" href="#" onClick={() => setTabState({tab: 'Description'})} data-toggle="tab" role="tab" aria-controls="Description" aria-selected="true">Description</button>
                         </li>
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Technologies' ? 'nav-link active' : 'nav-link'} id="recipe-book-technologies" data-toggle="tab" onClick={() => setTabState({tab: 'Technologies'})} role="tab" aria-controls="Technologies" aria-selected="false">Technologies</a>
+                            <button className={tabState.tab === 'Technologies' ? 'nav-link active' : 'nav-link'} id="recipe-book-technologies" href="#" data-toggle="tab" onClick={() => setTabState({tab: 'Technologies'})} role="tab" aria-controls="Technologies" aria-selected="false">Technologies</button>
                         </li>
                         <li className="nav-item">
-                            <a className={tabState.tab === 'Software' ? 'nav-link active' : 'nav-link'} id="recipe-book-software" data-toggle="tab" onClick={() => setTabState({tab: 'Software'})} role="tab" aria-controls="Software" aria-selected="false">Software</a>
+                            <button className={tabState.tab === 'Software' ? 'nav-link active' : 'nav-link'} id="recipe-book-software" href="#" data-toggle="tab" onClick={() => setTabState({tab: 'Software'})} role="tab" aria-controls="Software" aria-selected="false">Software</button>
                         </li>
                     </ul>
                         <div id="recipe-book-content" className="tab-content project-description">
