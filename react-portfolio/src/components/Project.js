@@ -44,7 +44,7 @@ const Project = props => {
                 <h3>{title}</h3>
                         {getLinks(liveSite, gitRepo)}
                     <img className="img-fluid" src={process.env.PUBLIC_URL + "images/project_thumbnails/" + projectImg} alt={title} />
-                    <ul className="nav nav-tabs col-sm-12" id="recipe-book" role="tablist">
+                    <ul className="nav nav-tabs col-sm-12" role="tablist">
                         <li className="nav-item">
                             <button className={tabState.tab === 'Description' ? 'nav-link active' : 'nav-link'} onClick={() => setTabState({tab: 'Description'})} data-toggle="tab" role="tab" aria-controls="Description" aria-selected="true">Description</button>
                         </li>
@@ -55,7 +55,7 @@ const Project = props => {
                             <button className={tabState.tab === 'Software' ? 'nav-link active' : 'nav-link'} data-toggle="tab" onClick={() => setTabState({tab: 'Software'})} role="tab" aria-controls="Software" aria-selected="false">Software</button>
                         </li>
                     </ul>
-                        <div id="recipe-book-content" className="tab-content project-description">
+                        <div className="tab-content project-description">
                         <div className={tabState.tab === 'Description' ? 'tab-pane fade show active' : 'tab-pane fade'} role="tabpanel" aria-labelledby="description-tab">
                             <h5>Description</h5>
                             <p>{description}</p> 
