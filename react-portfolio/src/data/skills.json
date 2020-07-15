@@ -58,6 +58,18 @@
                 "skillName": "MySQL"
             },
             {
+                "skillImage": "mongodb-full.png",
+                "skillName": "Mongo DB"
+            },
+            {
+                "skillImage": "mongoosejs-full.png",
+                "skillName": "Mongoose JS"
+            },
+            {
+                "skillImage": "robo3t-full.png",
+                "skillName": "Robo 3T"
+            },
+            {
                 "skillImage": "rest-api-full.png",
                 "skillName": "Rest API"
             },

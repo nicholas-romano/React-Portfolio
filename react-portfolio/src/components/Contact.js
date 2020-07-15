@@ -25,7 +25,7 @@ const Contact = () => {
         <section className="column">
             <div className="column-content">
                   <div className="contact_form">
-                    <h1>Get In Touch!</h1>
+                    <h1>Contact</h1>
                     <p>If you have questions about my skills and would like to learn more about
                         what I can do, please don’t hesitate to ask here. I am more than happy
                         to answer questions you have.</p>
