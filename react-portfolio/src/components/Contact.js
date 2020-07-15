@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 
 const Contact = () => {
 
-  const { register, errors } = useForm();
+  const { register, handleSubmit, errors } = useForm();
 
   const [formValues, setFormVal] = useState({
     name: '',
@@ -14,6 +14,10 @@ const Contact = () => {
     phone3: 0,
     message: ''
   });
+
+  const onSubmit = data => {
+    console.log(data);
+  }
 
   return (
     <main>
@@ -26,7 +30,7 @@ const Contact = () => {
                         what I can do, please don’t hesitate to ask here. I am more than happy
                         to answer questions you have.</p>
                     <p className="required"> * Indicates a required field.</p>
-                    <form id="contact" name="contact" method="post" className="form-horizontal">
+                    <form onSubmit={handleSubmit(onSubmit)} id="contact" name="contact" method="post" className="form-horizontal">
                       <input type="hidden" name="form-name" value="contact" />
                       <div className="form-group">
                         <label htmlFor="Name" className="col-sm-1 control-label"><span className="required">*</span>Name</label>
