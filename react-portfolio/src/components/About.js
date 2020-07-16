@@ -13,9 +13,10 @@ const About = () => {
                     <h1>About</h1>
                     <p>Full Stack Web Developer with graphic design experience educated at the 
                       University of North Carolina and James Madison University. Skilled in 
-                      responsive web technologies such as HTML, CSS, and JavaScript, as well as 
-                      libraries such as JQuery and Bootstrap, and architectures such as ReactJS, 
-                      ExpressJS, and NodeJS. Strengths include a passion for creativity, dedication 
+                      responsive web technologies such as HTML, CSS, JavaScript, JQuery and Bootstrap,
+                      and architectures such as ReactJS, ExpressJS, and NodeJS, and back-end data modeling 
+                      technologies such as Sequelize and Mongoose in connection to back-end databases 
+                      such as MongoDB and MySQL. Strengths include a passion for creativity, dedication 
                       to problem-solving, and commitment to quality work. Excited about the next 
                       opportunity to leverage his skills and experience to assist a company or 
                       organization succeed.
