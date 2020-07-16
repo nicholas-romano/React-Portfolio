@@ -1,6 +1,6 @@
 [
     {
-        "id": 20,
+        "id": 19,
         "title": "Employee Directory",
         "liveSite": "https://business-employee-directory.netlify.app/",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 18,
         "title": "Budget Tracker",
         "liveSite": "https://account-budgeting-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Budget-Tracker",
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 17,
         "title": "Workout Tracker",
         "liveSite": "https://myworkout-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Workout-Tracker",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 16,
         "title": "Recipes Book",
         "liveSite": "https://create-recipe-book.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Recipes-Book",
@@ -248,7 +248,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 15,
         "title": "Burgers To Eat",
         "liveSite": "https://burgers-to-eat.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Burger",
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 14,
         "title": "Note Taker",
         "liveSite": "https://note-taker-12.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Note-Taker",
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 13,
         "title": "Employee Tracker",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
         "projectImg": "Employee-Tracker.png",
@@ -399,7 +399,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Employee Summary Template Engine",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Summary-Template-Engine",
         "projectImg": "Employee-Summary-Template-Engine_thumbnail.png",
@@ -446,7 +446,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 11,
         "title": "README File Generator",
         "gitRepo": "https://github.com/nicholas-romano/README-File-Generator",
         "projectImg": "README-file-generator_thumbnail.png",
@@ -477,7 +477,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 10,
         "title": "Places and News Search",
         "liveSite": "https://nicholas-romano.github.io/Places-and-News-Search/",
         "gitRepo": "https://github.com/nicholas-romano/Places-and-News-Search/",
@@ -541,7 +541,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 9,
         "title": "Weather Dashboard",
         "liveSite": "https://nicholas-romano.github.io/Weather-Dashboard/",
         "gitRepo": "https://github.com/nicholas-romano/Weather-Dashboard/",
@@ -593,7 +593,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Work Day Scheduler",
         "liveSite": "https://nicholas-romano.github.io/Work-Day-Scheduler/",
         "gitRepo": "https://github.com/nicholas-romano/Work-Day-Scheduler/",
@@ -641,7 +641,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Code Quiz",
         "liveSite": "https://nicholas-romano.github.io/Code-Quiz/",
         "gitRepo": "https://github.com/nicholas-romano/Code-Quiz/",
@@ -677,7 +677,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Password Generator",
         "liveSite": "https://nicholas-romano.github.io/Password-Generator/",
         "gitRepo": "https://github.com/nicholas-romano/Password-Generator/",
@@ -709,7 +709,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Shoppers Stop",
         "liveSite": "https://nicholas-romano.github.io/shoppers-stop/index.html",
         "gitRepo": "https://github.com/nicholas-romano/Shoppers_Stop_App/",
@@ -762,7 +762,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Stop Watch",
         "liveSite": "https://nicholas-romano.github.io/stop-watch/index.html",
         "gitRepo": "https://nicholas-romano.github.io/stop-watch/index.html",
@@ -796,59 +796,6 @@
             {
                 "techImg": "bootstrap-logo.jpeg",
                 "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-            
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Movie Discovery",
-        "liveSite": "https://nicholas-romano.github.io/movie-discovery/",
-        "gitRepo": "https://github.com/nicholas-romano/Movie-Discovery/",
-        "projectImg": "movies-app_thumbnail.png",
-        "description": "This Movies Search Application uses an API from themoviedb.org and provides the user the capability of searching movie titles and then selecting which ones to add to their favorites list by clicking the heart icon at the bottom of each one. The favorites list appears on the favorites page when the favorites button is clicked. This application is a single-page React JS application that uses a browser router to dynamically change the content of the page by switching components.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "react-js-logo.png",
-                "techName": "React JS"
-            },
-            {
-                "techImg": "redux-logo.png",
-                "techName": "Redux"
-            },
-            {
-                "techImg": "rest-api-logo.png",
-                "techName": "Rest API"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
             },
             {
                 "techImg": "github-logo.png",
