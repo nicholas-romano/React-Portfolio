@@ -1,6 +1,6 @@
 [
     {
-        "id": 18,
+        "id": 20,
         "title": "Employee Directory",
         "liveSite": "https://business-employee-directory.netlify.app/",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
@@ -28,6 +28,10 @@
                 "techName": "React JS"
             },
             {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
+            },
+            {
                 "techImg": "javascript_logo.png",
                 "techName": "Javascript"
             },
@@ -48,7 +52,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 19,
         "title": "Budget Tracker",
         "liveSite": "https://account-budgeting-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Budget-Tracker",
@@ -112,7 +116,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 18,
         "title": "Workout Tracker",
         "liveSite": "https://myworkout-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Workout-Tracker",
@@ -176,7 +180,75 @@
         ]
     },
     {
-        "id": 15,
+        "id": 17,
+        "title": "Recipes Book",
+        "liveSite": "https://create-recipe-book.herokuapp.com/",
+        "gitRepo": "https://github.com/nicholas-romano/Recipes-Book",
+        "projectImg": "Recipe-Book-thumbnail.png",
+        "description": "This application gives the user the ability to search for recipes by keyword, diet type, cuisine, or specific nutrition, and displays only recipes that fit that search criteria. It then allows the user to save recipes to their recipe book so that they can be viewed later. A recipe can be viewed from either the Spoonacular API, or from a saved recipe in the MySQL database. Each recipe has step-by-step instructions to complete a recipe, providing only information needed such as equipment, ingredients, and instructions with images to match.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "expressjs-logo.png",
+                "techName": "Express JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "sequelize-logo.png",
+                "techName": "Sequelize"
+            },
+            {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "jquery-logo.png",
+                "techName": "JQuery"
+            },
+            {
+                "techImg": "bootstrap-logo.jpeg",
+                "techName": "Bootstrap"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            },
+            {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
+                "techImg": "mysql-workbench-logo.png",
+                "techName": "MySQL Workbench"
+            }
+        ]
+    },
+    {
+        "id": 16,
         "title": "Burgers To Eat",
         "liveSite": "https://burgers-to-eat.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Burger",
@@ -208,10 +280,6 @@
                 "techName": "Node Package Manager"
             },
             {
-                "techImg": "mysql-logo.jpg",
-                "techName": "MySQL"
-            },
-            {
                 "techImg": "javascript_logo.png",
                 "techName": "Javascript"
             },
@@ -230,13 +298,17 @@
                 "techName": "Visual Studio"
             },
             {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
                 "techImg": "mysql-workbench-logo.png",
                 "techName": "MySQL Workbench"
             }
         ]
     },
     {
-        "id": 14,
+        "id": 15,
         "title": "Note Taker",
         "liveSite": "https://note-taker-12.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Note-Taker",
@@ -281,6 +353,45 @@
             }
         ],
         "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Employee Tracker",
+        "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
+        "projectImg": "Employee-Tracker.png",
+        "description": "The Employee Tracker Application is a command-line/terminal application used to input and display employee data for a business or organization. It gives the user the ability to enter and save information such as the employee’s name, job title, department, salary, and manager. It also provides the capability of removing any of those categories and automatically updating the associated data accordingly.",
+        "technologies": [
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
+                "techImg": "mysql-workbench-logo.png",
+                "techName": "MySQL Workbench"
+            },
             {
                 "techImg": "visual-studio-logo.png",
                 "techName": "Visual Studio"
@@ -390,6 +501,10 @@
                 "techName": "Node Package Manager"
             },
             {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
+            },
+            {
                 "techImg": "javascript_logo.png",
                 "techName": "Javascript"
             },
@@ -412,6 +527,14 @@
                 "techName": "Visual Studio"
             },
             {
+                "techImg": "mysql-logo.jpg",
+                "techName": "MySQL"
+            },
+            {
+                "techImg": "mysql-workbench-logo.png",
+                "techName": "MySQL Workbench"
+            },
+            {
                 "techImg": "photoshop-logo.png",
                 "techName": "Photoshop"
             }
@@ -432,6 +555,10 @@
             {
                 "techImg": "css3-logo.jpg",
                 "techName": "CSS3"
+            },
+            {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
             },
             {
                 "techImg": "javascript_logo.png",
@@ -706,6 +833,10 @@
             {
                 "techImg": "redux-logo.png",
                 "techName": "Redux"
+            },
+            {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
             },
             {
                 "techImg": "javascript_logo.png",
