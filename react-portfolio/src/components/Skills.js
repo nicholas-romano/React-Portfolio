@@ -19,7 +19,7 @@ function Skills() {
                     <div className="column-content">
                         <h1>Skills</h1>
                         <p>
-                            Here is the list of skills Nick Romano can use for his projects.
+                            Here is the list of skills Nicholas Romano can use for his projects.
                             The list is categorized by the following technology types: Programming languages and
                             Design Software.
                         </p>
