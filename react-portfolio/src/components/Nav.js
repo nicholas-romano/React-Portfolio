@@ -1,32 +1,33 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
+
+  let location = useLocation();
 
   const [activePage, setActivePage] = useState('');
 
   useEffect(() => {
-    const route = window.location.href;
 
-    console.log('route: ', route);
-    
-    if (route.lastIndexOf('/about') !== -1) {
-      setActivePage('about');
-    } else if (route.lastIndexOf('/skills') !== -1) {
-      setActivePage('skills');
-    } else if (route.lastIndexOf('/contact') !== -1) {
-      setActivePage('contact');
-    } else if (route.lastIndexOf('/') !== -1) {
-      setActivePage('portfolio');
-    } else {
-      setActivePage('portfolio');
+    switch (location.pathname) {
+      case '/about':
+        setActivePage('about');
+      break;
+      case '/skills':
+        setActivePage('skills');
+      break;
+      case '/contact':
+        setActivePage('contact');
+      break;
+      case '/':
+        setActivePage('portfolio');
+      break;
+      default: 
+        setActivePage('portfolio');
+      break;
     }
     
-  }, []);
-
-  const changeActivePage = page => {
-    setActivePage(page);
-  }
+  }, [location.pathname]);
 
   return (
       <nav className="navbar navbar-expand-md">
@@ -36,16 +37,16 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link onClick={() => changeActivePage('about')} className={activePage === 'about' ? 'nav-link active' : 'nav-link'} to="/about">About</Link>
+                    <Link onClick={() => setActivePage('about')} className={activePage === 'about' ? 'nav-link active' : 'nav-link'} to="/about">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link onClick={() => changeActivePage('skills')} className={activePage === 'skills' ? 'nav-link active' : 'nav-link'} to="/skills">Skills</Link>
+                    <Link onClick={() => setActivePage('skills')} className={activePage === 'skills' ? 'nav-link active' : 'nav-link'} to="/skills">Skills</Link>
                 </li>
                 <li className="nav-item">
-                    <Link onClick={() => changeActivePage('portfolio')} className={activePage === 'portfolio' ? 'nav-link active' : 'nav-link'} to="/">Portfolio</Link>
+                    <Link onClick={() => setActivePage('portfolio')} className={activePage === 'portfolio' ? 'nav-link active' : 'nav-link'} to="/">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link onClick={() => changeActivePage('contact')} className={activePage === 'contact' ? 'nav-link active' : 'nav-link'} to="/contact">Contact</Link>
+                    <Link onClick={() => setActivePage('contact')} className={activePage === 'contact' ? 'nav-link active' : 'nav-link'} to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
