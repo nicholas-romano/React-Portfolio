@@ -72,7 +72,7 @@
         "title": "Employee Directory",
         "liveSite": "https://business-employee-directory.netlify.app/",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
-        "projectImg": "Employee-Directory.png",
+        "projectImg": "Employee-Directory_thumbnail.png",
         "description": "The Employee Directory uses the Random User API to generate a list of user dummy data to populate a table of 50 employees. That table can then be filtered when the user starts to type a name in the search box. The table can also be filtered in alphabetical/reverse alphabetical order by clicking on the Name column heading. The first time the Name column heading is clicked on, the list displayed we re-sort all of the records in the table in alphbetical order. The second time it's clicked on, the records are sorted in reverse-alphabetically order and it will toggle back in forth the more it is clicked on.",
         "technologies": [
             {
@@ -124,7 +124,7 @@
         "title": "Budget Tracker",
         "liveSite": "https://account-budgeting-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Budget-Tracker",
-        "projectImg": "Budget-Tracker.png",
+        "projectImg": "Budget-Tracker_thumbnail.png",
         "description": "Budget Tracker gives the user the ability to enter and track their income and expenses in a line graph over time. It displays a simple form consisting of one input box for the transaction name, one input box for the transaction amount, and two buttons; one button to add to the total and one button to subtract from the total. The total is displayed at top. Each transaction is displayed in a table in the table below and mapped out in the line graph below the table. Amounts are displayed in the y-axis, and each transaction is displayed as a point on the graph with the date on the x-axis. When the user wants to start over and clear all the data, they can click the \"Clear All Data\" button below the graph.",
         "technologies": [
             {
@@ -188,7 +188,7 @@
         "title": "Workout Tracker",
         "liveSite": "https://myworkout-tracker.herokuapp.com/",
         "gitRepo": "https://github.com/nicholas-romano/Workout-Tracker",
-        "projectImg": "Workout-Tracker.png",
+        "projectImg": "Workout-Tracker_thumbnail.png",
         "description": "Workout Tracker provides an interface for active people to enter and track their workouts from day to day and view their progress over time. Their results are shown in statistical charts such as line graphs, bar graphs, pie charts, and doughnut charts. The application accepts workout entries each day from forms, then calculates metrics such as total workout duration each day (displayed in a line graph), and total weight lifted each day (displayed in a bar graph). The dashboard also displays the amount of time spent on each individual workout in a color-coded pie graph, and the total weight for each workout in a color-coded doughnut chart. If the user wants to start over, they can remove all the data and charts by pressing the \"Clear All Data\" button.",
         "technologies": [
             {
@@ -431,7 +431,7 @@
         "id": 13,
         "title": "Employee Tracker",
         "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
-        "projectImg": "Employee-Tracker.png",
+        "projectImg": "Employee-Tracker_thumbnail.png",
         "description": "The Employee Tracker Application is a command-line/terminal application used to input and display employee data for a business or organization. It gives the user the ability to enter and save information such as the employee’s name, job title, department, salary, and manager. It also provides the capability of removing any of those categories and automatically updating the associated data accordingly.",
         "technologies": [
             {
