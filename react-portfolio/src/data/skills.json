@@ -10,6 +10,10 @@
                 "skillName": "CSS3"
             },
             {
+                "skillImage": "bulma-full.png",
+                "skillName": "Bulma"
+            },
+            {
                 "skillImage": "bootstrap-full.jpg",
                 "skillName": "Bootstrap"
             },

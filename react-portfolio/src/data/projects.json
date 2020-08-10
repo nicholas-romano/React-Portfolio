@@ -1,5 +1,73 @@
 [
     {
+        "id": 20,
+        "title": "Happenings App",
+        "liveSite": "https://the-happenings-app.herokuapp.com/",
+        "gitRepo": "https://github.com/nicholas-romano/Happenings",
+        "projectImg": "HappeningsApp-Dashboard_thumbnail.png",
+        "description": "The Happenings App is a social media application that uses a live, interactive map API that links to a user's review posts to a location and pins it to the map. When the user clicks on the location pin, they can see the post that was created by either themselves, a friend, or another user. Each review created also displays a star rating for the location pinned to help users decide on places and events to go to. The application also provides the capability of customizing a user's profile, and adding friends to their profile. When friends are added to an account, only posts from the user and their friends can be seen on the main dashboard.",
+        "technologies": [
+            {
+                "techImg": "html5-logo.png",
+                "techName": "HTML5"
+            },
+            {
+                "techImg": "css3-logo.jpg",
+                "techName": "CSS3"
+            },
+            {
+                "techImg": "nodejs-logo.jpg",
+                "techName": "Node JS"
+            },
+            {
+                "techImg": "expressjs-logo.png",
+                "techName": "Express JS"
+            },
+            {
+                "techImg": "npm-logo.png",
+                "techName": "Node Package Manager"
+            },
+            {
+                "techImg": "react-js-logo.png",
+                "techName": "React JS"
+            },
+            {
+                "techImg": "rest-api-logo.png",
+                "techName": "Rest API"
+            },
+            {
+                "techImg": "javascript_logo.png",
+                "techName": "Javascript"
+            },
+            {
+                "techImg": "mongoosejs-logo.png",
+                "techName": "Mongoose JS"
+            },
+            {
+                "techImg": "mongodb-logo.png",
+                "techName": "Mongo DB"
+            },
+            {
+                "techImg": "bulma-logo.png",
+                "techName": "Bulma"
+            },
+            {
+                "techImg": "github-logo.png",
+                "techName": "Git Hub"
+            }
+        ],
+        "software": [
+            {
+                "techImg": "visual-studio-logo.png",
+                "techName": "Visual Studio"
+            },
+            {
+                "techImg": "robo3t-logo.png",
+                "techName": "Robo 3T"
+            }
+        ]
+    },
+    {
         "id": 19,
         "title": "Employee Directory",
         "liveSite": "https://business-employee-directory.netlify.app/",
