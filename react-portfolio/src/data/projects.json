@@ -44,10 +44,6 @@
                 "techName": "Mongoose JS"
             },
             {
-                "techImg": "mongodb-logo.png",
-                "techName": "Mongo DB"
-            },
-            {
                 "techImg": "bulma-logo.png",
                 "techName": "Bulma"
             },
@@ -60,6 +56,10 @@
             {
                 "techImg": "visual-studio-logo.png",
                 "techName": "Visual Studio"
+            },
+            {
+                "techImg": "mongodb-logo.png",
+                "techName": "Mongo DB"
             },
             {
                 "techImg": "robo3t-logo.png",
@@ -148,10 +148,6 @@
                 "techName": "Node Package Manager"
             },
             {
-                "techImg": "mongodb-logo.png",
-                "techName": "Mongo DB"
-            },
-            {
                 "techImg": "mongoosejs-logo.png",
                 "techName": "Mongoose JS"
             },
@@ -176,6 +172,10 @@
             {
                 "techImg": "visual-studio-logo.png",
                 "techName": "Visual Studio"
+            },
+            {
+                "techImg": "mongodb-logo.png",
+                "techName": "Mongo DB"
             },
             {
                 "techImg": "robo3t-logo.png",
@@ -212,10 +212,6 @@
                 "techName": "Node Package Manager"
             },
             {
-                "techImg": "mongodb-logo.png",
-                "techName": "Mongo DB"
-            },
-            {
                 "techImg": "mongoosejs-logo.png",
                 "techName": "Mongoose JS"
             },
@@ -240,6 +236,10 @@
             {
                 "techImg": "visual-studio-logo.png",
                 "techName": "Visual Studio"
+            },
+            {
+                "techImg": "mongodb-logo.png",
+                "techName": "Mongo DB"
             },
             {
                 "techImg": "robo3t-logo.png",
@@ -666,7 +666,7 @@
         "liveSite": "https://nicholas-romano.github.io/Work-Day-Scheduler/",
         "gitRepo": "https://github.com/nicholas-romano/Work-Day-Scheduler/",
         "projectImg": "Work-Day-Scheduler_thumbnail.png",
-        "description": "This is a very useful application for those who like to plan-out their day. This application gives the user the ability to enter in pointer-events for each hour of the workday from 8am to 6pm. The current time is calculated using the moment.js javascript framework. The current hour block is highlighted yellow, while the past time blocks are gray, and the future time blocks are green. Only the green future time blocks are editable. The user enters in an event for inside a green timeblock and hits the save button on the rightside of the table. The event is then saved to the user's brower local storage array.",
+        "description": "This is a very useful application for those who like to plan-out their day. This application gives the user the ability to enter in events for each hour of the workday from 8am to 6pm. The current time is calculated using the moment.js javascript library. The current hour block is highlighted yellow, while the past time blocks are gray, and the future time blocks are green. Only the green future time blocks are editable. The user enters in an event inside a green timeblock and hits the corresponding save button on the rightside of the table. The event is then saved to the user's brower local storage so it can be accessed again later even after closing the browser and launching the application again.",
         "technologies": [
             {
                 "techImg": "html5-logo.png",
