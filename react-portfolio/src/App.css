@@ -39,7 +39,7 @@ header {
     z-index: 2;
     text-align: center; }
   #banner nav .navbar-nav {
-    max-width: 455px;
+    max-width: 600px;
     margin: 0 auto; }
   #banner nav .navbar-nav .nav-link {
     color: black;
