@@ -90,7 +90,6 @@ header {
     cursor: pointer; }
 
 #headline {
-  background-image: url("../public/images/headline_gears_img.jpg");
   background-color: navy;
   color: black;
   text-align: center;
