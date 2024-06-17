@@ -10,10 +10,6 @@
                 "skillName": "CSS3"
             },
             {
-                "skillImage": "bulma-full.png",
-                "skillName": "Bulma"
-            },
-            {
                 "skillImage": "bootstrap-full.jpg",
                 "skillName": "Bootstrap"
             },
@@ -89,6 +85,10 @@
     },
     {
         "design": [
+            {
+                "skillImage": "figma_full.jpeg",
+                "skillName": "Figma"
+            },
             {
                 "skillImage": "adobe-xd-logo-full.png",
                 "skillName": "Adobe XD"

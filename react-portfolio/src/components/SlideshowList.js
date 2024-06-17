@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Project from './Project';
-import projectData from '../data/projects.json';
+import Slideshow from './Slideshow';
+import projectData from '../data/slideshows.json';
 import '../App.css';
 
 const ProjectList = () => {
@@ -11,24 +11,24 @@ const ProjectList = () => {
     setProjectState(projectData);
   }, []);
 
+  //console.log(projectState);
+
 
   return (
     <section id="project_porfolio" className="content_section">
-      <h3>Development Projects</h3>
+      <h3>Design Projects</h3>
         <div className="category">
             <div className="row">
               {
-                projectState.map(project => (
-                  <Project 
+                projectState.map((project) => (
+                  <Slideshow 
                     key={project.id}
                     id={project.id}
-                    description={project.description}
-                    projectImg={project.projectImg}
-                    software={project.software}
-                    technologies={project.technologies}
                     title={project.title}
-                    liveSite={project.liveSite}
-                    gitRepo={project.gitRepo}
+                    dir={project.dir}
+                    videoSrc={project.videoSrc}
+                    url={project.url}
+                    slides={project.slides}
                   />
                 ))
               }
