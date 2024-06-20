@@ -39,5 +39,42 @@
             "ecom-app-checkout.png",
             "ecom-app-confirmation.png"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Bird Finder App",
+        "dir": "Bird-Finder-App/",
+        "url": null,
+        "videoSrc": null,
+        "slides": [
+            "Bird-Finder-Splash.png",
+            "Bird-Finder-Login.png",
+            "Bird-Finder-Dashboard.png",
+            "Bird-Finder-Favorites.png",
+            "Bird-Finder-Find-A-Bird.png",
+            "Bird-Finder-Dashboard-grid-view.png",
+            "Bird-Finder-Details-Description.png",
+            "Bird-Finder-Details-Appearance.png",
+            "Bird-Finder-Details-Habitat.png",
+            "Bird-Finder-Details-Habitat-Map.png",
+            "Bird-Finder-Details-Behavior.png"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Do Local App",
+        "dir": "Do-Local-App/",
+        "url": "https://xd.adobe.com/view/7133cbe6-af4a-40ea-9f3d-53fe21ce05f7-2460/?fullscreen",
+        "videoSrc": "https://www.youtube.com/embed/_yIJRnqJ1Mc?si=04CifgMeyfwN-qCn",
+        "slides": [
+            "Do-Local-splash.png",
+            "Do-Local-login.png",
+            "Do-Local-activity.png",
+            "Do-Local-search.png",
+            "Do-Local-activity-details.png",
+            "Do-Local-activity-collections.png",
+            "Do-Local-menu.png",
+            "Do-Local-activity-calendar.png"
+        ]
     }
 ]

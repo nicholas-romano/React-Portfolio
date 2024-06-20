@@ -6,7 +6,7 @@ const Header = () => {
     <header>   
         <div id="banner">
           <h1>Nicholas Romano</h1>
-          <h3>Web Designer</h3>
+          <h3>Web Designer and Developer</h3>
           <div className="resume-download">
             <label><a href="mailto:njromano77@gmail.com">njromano77@gmail.com</a></label>&nbsp; &bull; &nbsp;
             <label><a href="https://github.com/nicholas-romano">GitHub</a></label>&nbsp; &bull; &nbsp;

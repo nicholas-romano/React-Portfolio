@@ -13,6 +13,10 @@ main {
   width: 100%;
 }
 
+.carousel-indicators {
+  z-index: 1;
+}
+
 header {
   background-color: #EBEBEB;
   border-bottom: 2px solid #262B5E;
@@ -21,7 +25,7 @@ header {
   position: fixed;
   width: 100%;
   margin: 0;
-  z-index: 1; }
+  z-index: 2; }
   header img {
     float: left;
     background-color: white;
@@ -301,7 +305,7 @@ footer {
   box-shadow: -2px -2px 2px #808080;
   width: 100%;
   margin: 0;
-  z-index: 1;
+  z-index: 2;
   clear: both;
   font-weight: bold;
   text-align: center;
