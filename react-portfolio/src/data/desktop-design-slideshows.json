@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "title": "Atlantim",
+        "dir": "desktop-design-slideshows/Atlantim-Desktop/",
+        "slides": [
+            "Atlantim-home-slide-menu.png",
+            "Atlantim-home-slide-menu-2.png",
+            "Atlantim-services.png",
+            "Atlantim-services-2.png",
+            "Atlantim-services-3.png"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Cruneo",
+        "dir": "desktop-design-slideshows/Cruneo-Desktop/",
+        "slides": [
+            "Cruneo-home.png",
+            "Cruneo-home-2.png",
+            "Cruneo-form.png",
+            "Cruneo-form-2.png"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "eDocs",
+        "dir": "desktop-design-slideshows/eDocs-Desktop/",
+        "slides": [
+            "eDocs-contract-document-listings.png",
+            "eDocs-contract-document-listings-2.png",
+            "eDocs-contract-search.png"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Live Famously",
+        "dir": "desktop-design-slideshows/Live-Famously-Desktop/",
+        "slides": [
+            "Live-Famously-home.png",
+            "Live-Famously-home-2.png",
+            "Live-Famously-home-3.png",
+            "Live-Famously-about-us.png",
+            "Live-Famously-about-us-2.png",
+            "Live-Famously-about-us-3.png"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Othram Discover",
+        "dir": "desktop-design-slideshows/Othram-Discover-Desktop/",
+        "slides": [
+            "Othram-Discover-Haplogroup-Report.png",
+            "Othram-Discover-Haplogroup-Report-2.png",
+            "Othram-Discover-Landing-Page.png",
+            "Othram-Discover-Landing-Page-2.png",
+            "Othram-Discover-Landing-Page-3.png",
+            "Othram-Discover-Identity-Details.png",
+            "Othram-Discover-Identity-Details-2.png",
+            "Othram-Discover-Identity-Details-3.png",
+            "Othram-Discover-Identity-Details-4.png"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Rental Moving Boxes",
+        "dir": "desktop-design-slideshows/Rental-Moving-Boxes-Desktop/",
+        "slides": [
+            "Rental-Moving-Boxes-home.png",
+            "Rental-Moving-Boxes-home-2.png",
+            "Rental-Moving-Boxes-home-3.png",
+            "Rental-Moving-Boxes-home-4.png",
+            "Rental-Moving-Boxes-home-5.png"
+        ]
+    }
+]
