@@ -25,6 +25,7 @@ const ProjectList = () => {
                     key={project.id}
                     id={project.id}
                     title={project.title}
+                    desc={project.desc}
                     dir={project.dir}
                     videoSrc={project.videoSrc}
                     url={project.url}

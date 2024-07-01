@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Raleigh Jazz App",
+        "desc": "This is an interactive prototype of a mobile app for local Jazz events in the Raleigh, North Carolina area. It was created using Figma.",
         "dir": "mobile-app-slideshows/Raleigh-Jazz-App/",
         "url": "https://www.figma.com/proto/d3SrM3Zkm2vGD95iR9wYIU/Event-App-v1.0?page-id=0%3A1&node-id=19-148&viewport=299%2C275%2C0.17&t=HwRbQB0tmNH82I1b-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A148&show-proto-sidebar=1",
         "videoSrc": "https://www.youtube.com/embed/7IxhO-Tn91o?si=UiEnAgEzKTYf-VOe",
@@ -24,6 +25,7 @@
     {
         "id": 2,
         "title": "Ecom App",
+        "desc": "This is an interactive prototype of an e-commerce mobile app for a laptop. It was created using Figma.",
         "dir": "mobile-app-slideshows/Ecom-App/",
         "url": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FW1EPSO5aTWWZv01nhbc964%2FNick-Ecom-V1%3Fpage-id%3D49%253A2%26node-id%3D49-10%26viewport%3D678%252C505%252C1.13%26t%3D77Qpb8SqXXD6SMz6-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D49%253A10%26show-proto-sidebar%3D1",
         "videoSrc": "https://www.youtube.com/embed/Lkkk8br8JSk?si=qT4tzlmQfAsstNw2",
@@ -43,6 +45,7 @@
     {
         "id": 3,
         "title": "Bird Finder App",
+        "desc": "This is an interactive prototype of a mobile app used for identifying and finding birds both locally and elsewhere. It was created using Figma.",
         "dir": "mobile-app-slideshows/Bird-Finder-App/",
         "url": "https://www.figma.com/proto/hdrZCUcX3bqJT7sqdSueT4/Bird-Finder-App?page-id=0%3A1&node-id=3-2&viewport=262%2C399%2C0.43&t=vlS0CAJEKee8q6bY-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A46&show-proto-sidebar=1",
         "videoSrc": "https://www.youtube.com/embed/KzUQ8wCZA-M?si=_gWkoeuYDHeEf7K4",
@@ -63,6 +66,7 @@
     {
         "id": 4,
         "title": "Do Local App",
+        "desc": "This is an interactive prototype of a mobile app for finding popular tourist attractions based on search location. It was created using Figma.",
         "dir": "mobile-app-slideshows/Do-Local-App/",
         "url": "https://xd.adobe.com/view/7133cbe6-af4a-40ea-9f3d-53fe21ce05f7-2460/?fullscreen",
         "videoSrc": "https://www.youtube.com/embed/_yIJRnqJ1Mc?si=04CifgMeyfwN-qCn",

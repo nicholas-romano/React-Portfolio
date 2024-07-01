@@ -5,7 +5,7 @@ import ButtonLink from './ButtonLink';
 
 const MobileAppSlideshow = props => {
 
-    const { id, title, dir, slides, url, videoSrc } = props;
+    const { id, title, desc, dir, slides, url, videoSrc } = props;
 
     if (url !== null && videoSrc !== null) {
         return (
@@ -13,6 +13,7 @@ const MobileAppSlideshow = props => {
             <div id={id} className="col-md-6 col-sm-12 project">
             <div className="project-container">
                 <h3>{title}</h3>
+                <div className="project-description">{desc}</div>
                 <CarouselContainer 
                     slides={slides}
                     title={title}

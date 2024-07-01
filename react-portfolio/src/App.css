@@ -8,6 +8,12 @@ main {
   padding-top: 200px; 
 }
 
+.project-description {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+}
+
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
