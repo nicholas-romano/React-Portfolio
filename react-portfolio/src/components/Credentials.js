@@ -12,6 +12,9 @@ const Credentials = () => {
                   <div className="column-content bio">
                     <h1>Credentials</h1>
                     <p>
+                      <a href={process.env.PUBLIC_URL + '/Documents/Figma_UI_UX_Design_Advanced_Certificate.pdf'} target="_blank" rel="noopener noreferrer">Figma UI UX Design Advanced Certificate</a>
+                    </p>
+                    <p>
                       <a href={process.env.PUBLIC_URL + '/Documents/UNC_Full_Stack_Development_Coding_Bootcamp_Certificate.pdf'} target="_blank" rel="noopener noreferrer">University of North Carolina Full Stack Web Development Coding Bootcamp Certificate</a>
                     </p>
                     <p>
