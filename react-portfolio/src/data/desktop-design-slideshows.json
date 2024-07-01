@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Atlantim",
+        "desc": "This is a static mockup for a service provider website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/Atlantim-Desktop/",
         "slides": [
             "Atlantim-home-slide-menu.png",
@@ -14,6 +15,7 @@
     {
         "id": 2,
         "title": "Cruneo",
+        "desc": "This is a static mockup design for a German travel accomodations website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/Cruneo-Desktop/",
         "slides": [
             "Cruneo-home.png",
@@ -25,6 +27,7 @@
     {
         "id": 3,
         "title": "eDocs",
+        "desc": "This is a static mockup for a document management website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/eDocs-Desktop/",
         "slides": [
             "eDocs-contract-document-listings.png",
@@ -35,6 +38,7 @@
     {
         "id": 4,
         "title": "Live Famously",
+        "desc": "This is a static mockup for a fashion accessories designer website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/Live-Famously-Desktop/",
         "slides": [
             "Live-Famously-home.png",
@@ -48,6 +52,7 @@
     {
         "id": 5,
         "title": "Othram Discover",
+        "desc": "This is a static mockup for a DNA analysis and forensics website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/Othram-Discover-Desktop/",
         "slides": [
             "Othram-Discover-Haplogroup-Report.png",
@@ -64,6 +69,7 @@
     {
         "id": 6,
         "title": "Rental Moving Boxes",
+        "desc": "This is a static mockup for a rental moving boxes website. It was designed using Adobe Photoshop.",
         "dir": "desktop-design-slideshows/Rental-Moving-Boxes-Desktop/",
         "slides": [
             "Rental-Moving-Boxes-home.png",

@@ -11,9 +11,6 @@ const ProjectList = () => {
     setProjectState(projectData);
   }, []);
 
-  //console.log(projectState);
-
-
   return (
     <section id="project_porfolio" className="content_section">
       <h3>Mobile App Design Projects</h3>

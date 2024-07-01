@@ -11,9 +11,6 @@ const ProjectList = () => {
     setProjectState(projectData);
   }, []);
 
-  //console.log(projectState);
-
-
   return (
     <section id="project_porfolio" className="content_section">
       <h3>Desktop Design Projects</h3>
@@ -25,6 +22,7 @@ const ProjectList = () => {
                     key={project.id}
                     id={project.id}
                     title={project.title}
+                    desc={project.desc}
                     dir={project.dir}
                     slides={project.slides}
                   />
