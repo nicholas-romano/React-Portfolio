@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TechItem from './TechItem';
+import ButtonLink from './ButtonLink';
 
 const Project = props => {
 
@@ -13,25 +14,39 @@ const Project = props => {
         if (liveSite !== undefined && gitRepo !== undefined) {
             return (
                 <>
-                <a href={liveSite} title="Link to Live Site" rel="noopener noreferrer">
-                    <button type="button" className="action-btn btn btn-primary">Live Site</button>
-                </a>
-                <a href={gitRepo} title="Link to GitHub Repo" rel="noopener noreferrer">
-                    <button type="button" className="action-btn btn btn-primary">GitHub Repo</button>
-                </a>
+                    <ButtonLink 
+                        url={liveSite}
+                        title="Live Site"
+                        altText="Link to Live Site"
+                        btnSize="action-btn"
+                    />
+                    <ButtonLink 
+                        url={gitRepo}
+                        title="GitHub Repo"
+                        altText="Link to Git Hub Repo"
+                        btnSize="action-btn"
+                    />
                 </>
             )
         } else if (liveSite === undefined && gitRepo !== undefined) {
             return (
-                <a href={gitRepo} title="Link to GitHub Repo"rel="noopener noreferrer">
-                    <button type="button" className="action-btn-full btn btn-primary">GitHub Repo</button>
-                </a>
+                <ButtonLink 
+                        url={gitRepo}
+                        title="GitHub Repo"
+                        altText="Link to Git Hub Repo"
+                        btnSize="action-btn-full"
+                />
             )
         } else if (liveSite !== undefined && gitRepo === undefined) {
             return (
-                <a href={liveSite} title="Link to Live Site" rel="noopener noreferrer">
-                    <button type="button" className="action-btn-full btn btn-primary">Live Site</button>
-                </a>
+                <>
+                    <ButtonLink 
+                        url={liveSite}
+                        title="Live Site"
+                        altText="Link to Live Site"
+                        btnSize="action-btn-full"
+                    />
+                </>
             )
         } else if (liveSite === undefined && gitRepo === undefined) {
             return <></>
