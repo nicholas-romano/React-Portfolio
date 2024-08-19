@@ -1,502 +1,550 @@
 [
-    {
-        "id": 19,
-        "title": "Employee Directory",
-        "liveSite": "https://business-employee-directory.netlify.app/",
-        "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
-        "projectImg": "Employee-Directory_thumbnail.png",
-        "description": "The Employee Directory uses the Random User API to generate a list of user dummy data to populate a table of 50 employees. That table can then be filtered when the user starts to type a name in the search box. The table can also be filtered in alphabetical/reverse alphabetical order by clicking on the Name column heading. The first time the Name column heading is clicked on, the list displayed we re-sort all of the records in the table in alphbetical order. The second time it's clicked on, the records are sorted in reverse-alphabetically order and it will toggle back in forth the more it is clicked on.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "react-js-logo.png",
-                "techName": "React JS"
-            },
-            {
-                "techImg": "rest-api-logo.png",
-                "techName": "Rest API"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    }, 
-    {
-        "id": 13,
-        "title": "Employee Tracker",
-        "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
-        "projectImg": "Employee-Tracker_thumbnail.png",
-        "description": "The Employee Tracker Application is a command-line/terminal application used to input and display employee data for a business or organization. It gives the user the ability to enter and save information such as the employee’s name, job title, department, salary, and manager. It also provides the capability of removing any of those categories and automatically updating the associated data accordingly.",
-        "technologies": [
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "mysql-logo.jpg",
-                "techName": "MySQL"
-            },
-            {
-                "techImg": "mysql-workbench-logo.png",
-                "techName": "MySQL Workbench"
-            },
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    },
-    {
-        "id": 12,
-        "title": "Employee Summary Template Engine",
-        "gitRepo": "https://github.com/nicholas-romano/Employee-Summary-Template-Engine",
-        "projectImg": "Employee-Summary-Template-Engine_thumbnail.png",
-        "description": "This application uses NodeJS in the command line (PC) or terminal (Mac) to prompt the user with questions for entering employees on an IT team. The user is asked questions based on employee type which can be either Manager, Engineer, or Intern and the can enter as many employees as they want. When they are done, the application compiles the data into a team.html file inside the Develop directory. They can then view this HTML file in their browser. This application uses a JavaScript Object Oriented programming style by using class modules for each employee type: Manager, Engineer, and Intern, and then creating an intance of each of those when needed and adding the data for each.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "jquery-logo.png",
-                "techName": "JQuery"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    },
-    {
-        "id": 11,
-        "title": "README File Generator",
-        "gitRepo": "https://github.com/nicholas-romano/README-File-Generator",
-        "projectImg": "README-file-generator_thumbnail.png",
-        "description": "This application uses NodeJS from the command line to generate a README.md file for a web application uploaded to Github. It prompts the user with questions on how to get the project running, what dependencies are needed, usage instructions, any collaborators or third-party companies that contributed, whether or not there is a copyright or license registered with it, guidelines for how someone can contribute to it, and user tests that can verify the project is free from bugs. All formatting including ordered lists, bulleted lists, links, and images will all be converted to the markdown syntax to be displayed in Github.",
-        "technologies": [
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "title": "Work Day Scheduler",
-        "liveSite": "https://nicholas-romano.github.io/Work-Day-Scheduler/",
-        "gitRepo": "https://github.com/nicholas-romano/Work-Day-Scheduler/",
-        "projectImg": "Work-Day-Scheduler_thumbnail.png",
-        "description": "This is a very useful application for those who like to plan-out their day. This application gives the user the ability to enter in events for each hour of the workday from 8am to 6pm. The current time is calculated using the moment.js javascript library. The current hour block is highlighted yellow, while the past time blocks are gray, and the future time blocks are green. Only the green future time blocks are editable. The user enters in an event inside a green timeblock and hits the corresponding save button on the rightside of the table. The event is then saved to the user's brower local storage so it can be accessed again later even after closing the browser and launching the application again.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "jquery-logo.png",
-                "techName": "JQuery"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "momentjs-logo.png",
-                "techName": "Moment JS"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            },
-            {
-                "techImg": "photoshop-logo.png",
-                "techName": "Photoshop"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "title": "Code Quiz",
-        "liveSite": "https://nicholas-romano.github.io/Code-Quiz/",
-        "gitRepo": "https://github.com/nicholas-romano/Code-Quiz/",
-        "projectImg": "Code-Quiz_thumbnail.png",
-        "description": "This application is an interactive JavaScript Quiz Assessment which tests the user's JavaScript knowledge. The application is meant to have just a six question sample and it works by recording the user's right or wrong answers. The quiz is on a timer and the total time left when the quiz is complete will be the user's score. The quiz starts counting down from 75 and for every answer the user gets incorrect, 15 seconds are subtracted from the total time. For every answer the user gets correct, the count-down clock is uneffected. At the end of the quiz, the user can enter and submit their initials for the application to save their score inside a high-scores table containing scores saved in the browser's local storage. All of the scores are ranked from highest score to lowest score.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Password Generator",
-        "liveSite": "https://nicholas-romano.github.io/Password-Generator/",
-        "gitRepo": "https://github.com/nicholas-romano/Password-Generator/",
-        "projectImg": "Password-Generator_thumbnail.png",
-        "description": "This application utilizes the browser's window prompt function to accept user input and generate a password. The prompt sequence goes as followers: character length (minimum 8, maximum 128), special characters, numbers, uppercase letters, and lowercase letters. The user must respond with a valid number for character length, and respond 'y' for 'yes' to at least one of the last four criteria. After a password is generated, a copy button is displayed below it. When the user clicks the copy button, the password is automatically copied to the user's computer clipboard so they can paste it elsewhere.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "visual-studio-logo.png",
-                "techName": "Visual Studio"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Shoppers Stop",
-        "liveSite": "https://nicholas-romano.github.io/shoppers-stop/index.html",
-        "gitRepo": "https://github.com/nicholas-romano/Shoppers_Stop_App/",
-        "projectImg": "shoppers-stop-thumbnail.png",
-        "description": "This was an application I made that gives people a platform to make a shopping list and track their grocery expenses. Features include the ability to set a total funds amount, add items to the list, and add details to each item using an HTML5 range slider. Details include an items cost, calorie count, and weight. There is also a section on the right that calculates total cost, calories, and weight for all groceries purchased.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "react-js-logo.png",
-                "techName": "React JS"
-            },
-            {
-                "techImg": "redux-logo.png",
-                "techName": "Redux"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-            
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Stop Watch",
-        "liveSite": "https://nicholas-romano.github.io/stop-watch/index.html",
-        "gitRepo": "https://nicholas-romano.github.io/stop-watch/index.html",
-        "projectImg": "stop-watch-thumbnail.png",
-        "description": "The Stop watch starts at all zeros and counts up while tracking seconds, minutes and hours. There are four buttons: Start, Stop, Reset, and Lap. The buttons will enable/disable depending upon the activity taken by the user. For instance, in the initial state, the start button is enabled while all other buttons are disabled, and when the start button is pressed, the other buttons are enabled. After the timer has started, when the lap button is clicked, a table is displayed at the bottom that shows the first lap (1) in the table with a corresponding time next to it from when the lap button was pressed. This app is useful for runners.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "react-js-logo.png",
-                "techName": "React JS"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "nodejs-logo.jpg",
-                "techName": "Node JS"
-            },
-            {
-                "techImg": "npm-logo.png",
-                "techName": "Node Package Manager"
-            },
-            {
-                "techImg": "bootstrap-logo.jpeg",
-                "techName": "Bootstrap"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-            
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Space Fighters Game",
-        "liveSite": "https://nicholas-romano.github.io/Space_Fighters/",
-        "gitRepo": "https://github.com/nicholas-romano/Space-Fighters-Game/",
-        "projectImg": "Space_Fighters_thumbnail.png",
-        "description": "This is an interactive computer game made solely with HTML5, CSS3, and JavaScript. The objective of the game is to shoot missles at enemy UFOs flying around on the screen and destroy all five while avoiding a collision attack which detroys their spaceship. The player is given three ships from the start. Music is played in the background and sound effects are applied to the launch of the missles, explosion of the UFOs, and rocketship when impacted.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-            
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            },
-            {
-                "techImg": "photoshop-logo.png",
-                "techName": "Photoshop"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Memory Card Game",
-        "liveSite": "https://nicholas-romano.github.io/Memory_Card_Game/match.html",
-        "gitRepo": "https://github.com/nicholas-romano/Memory_Card_Game/",
-        "projectImg": "memory_card_game_thumbnail.png",
-        "description": "This is a memory card game that uses a deck of 52 playing cards. The rules are: match two card names while ignoring the suit. For example, a 2 of clubs matches any other 2 regardless of suit. Therefore, there are 26 matches to find. The number of matches and attempts are tracked at the bottom, and a message is displayed at the top indicating whether a match was found or not. JavaScript is used to randomly shuffle the cards, flip them over on user click, and set the back design of each which can be set from the dropdown at the top.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "github-logo.png",
-                "techName": "Git Hub"
-            }
-            
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            },
-            {
-                "techImg": "photoshop-logo.png",
-                "techName": "Photoshop"
-            },
-            {
-                "techImg": "illustrator-logo.png",
-                "techName": "Illustrator"
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "title": "Rock Paper Scissors Game",
-        "liveSite": "https://nicholas-romano.github.io/Rock-Paper-Scissors_Game/rock_paper_scissors.html",
-        "projectImg": "rock_paper_scissors_thumbnail.png",
-        "description": "This is a rock-paper-scissors tournament using CSS3 animations that move the hands when a move is played against the computer. The tournament winner will need to win 3 games, 4 games, 5 games, etc whatever is chosen from the dropdown menu when the tournament starts.The hands and other graphics are made using Adobe Illustrator and the jQuery code takes care of the logic and calculates the amount of wins and losses between the user and the computer.",
-        "technologies": [
-            {
-                "techImg": "html5-logo.png",
-                "techName": "HTML5"
-            },
-            {
-                "techImg": "css3-logo.jpg",
-                "techName": "CSS3"
-            },
-            {
-                "techImg": "javascript_logo.png",
-                "techName": "Javascript"
-            },
-            {
-                "techImg": "jquery-logo.png",
-                "techName": "JQuery"
-            }
-        ],
-        "software": [
-            {
-                "techImg": "atom-logo.png",
-                "techName": "Atom"
-            },
-            {
-                "techImg": "illustrator-logo.png",
-                "techName": "Illustrator"
-            }
-        ]
-    }
+  {
+    "id": 20,
+    "title": "Song Search App",
+    "liveSite": "https://song-search-app.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/Song-Search",
+    "projectImg": "Song-Search-app.png",
+    "description": "The Song Search app uses the Shazam API to search for songs and artists and returns data such as artist name, song name, album name, and link to the song collections on Apple Music. The app utilizes ReactJS to make REST API calls to the Shazam Music Server and stores the most recent search results in the browser's session storage. The application will first check to see if the search query matches the session storage data, if it does, it uses that. If not, it will make a call to the API. If the call to the API fails, sample data is used from a static JSON file.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "react-bootstrap-logo-icon.png",
+        "techName": "React Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Employee Directory",
+    "liveSite": "https://business-employee-directory.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
+    "projectImg": "Employee-Directory_thumbnail.png",
+    "description": "The Employee Directory uses the Random User API to generate a list of user dummy data to populate a table of 50 employees. That table can then be filtered when the user starts to type a name in the search box. The table can also be filtered in alphabetical/reverse alphabetical order by clicking on the Name column heading. The first time the Name column heading is clicked on, the list displayed we re-sort all of the records in the table in alphbetical order. The second time it's clicked on, the records are sorted in reverse-alphabetically order and it will toggle back in forth the more it is clicked on.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Employee Tracker",
+    "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
+    "projectImg": "Employee-Tracker_thumbnail.png",
+    "description": "The Employee Tracker Application is a command-line/terminal application used to input and display employee data for a business or organization. It gives the user the ability to enter and save information such as the employee’s name, job title, department, salary, and manager. It also provides the capability of removing any of those categories and automatically updating the associated data accordingly.",
+    "technologies": [
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "mysql-logo.jpg",
+        "techName": "MySQL"
+      },
+      {
+        "techImg": "mysql-workbench-logo.png",
+        "techName": "MySQL Workbench"
+      },
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Employee Summary Template Engine",
+    "gitRepo": "https://github.com/nicholas-romano/Employee-Summary-Template-Engine",
+    "projectImg": "Employee-Summary-Template-Engine_thumbnail.png",
+    "description": "This application uses NodeJS in the command line (PC) or terminal (Mac) to prompt the user with questions for entering employees on an IT team. The user is asked questions based on employee type which can be either Manager, Engineer, or Intern and the can enter as many employees as they want. When they are done, the application compiles the data into a team.html file inside the Develop directory. They can then view this HTML file in their browser. This application uses a JavaScript Object Oriented programming style by using class modules for each employee type: Manager, Engineer, and Intern, and then creating an intance of each of those when needed and adding the data for each.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "jquery-logo.png",
+        "techName": "JQuery"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "README File Generator",
+    "gitRepo": "https://github.com/nicholas-romano/README-File-Generator",
+    "projectImg": "README-file-generator_thumbnail.png",
+    "description": "This application uses NodeJS from the command line to generate a README.md file for a web application uploaded to Github. It prompts the user with questions on how to get the project running, what dependencies are needed, usage instructions, any collaborators or third-party companies that contributed, whether or not there is a copyright or license registered with it, guidelines for how someone can contribute to it, and user tests that can verify the project is free from bugs. All formatting including ordered lists, bulleted lists, links, and images will all be converted to the markdown syntax to be displayed in Github.",
+    "technologies": [
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Work Day Scheduler",
+    "liveSite": "https://nicholas-romano.github.io/Work-Day-Scheduler/",
+    "gitRepo": "https://github.com/nicholas-romano/Work-Day-Scheduler/",
+    "projectImg": "Work-Day-Scheduler_thumbnail.png",
+    "description": "This is a very useful application for those who like to plan-out their day. This application gives the user the ability to enter in events for each hour of the workday from 8am to 6pm. The current time is calculated using the moment.js javascript library. The current hour block is highlighted yellow, while the past time blocks are gray, and the future time blocks are green. Only the green future time blocks are editable. The user enters in an event inside a green timeblock and hits the corresponding save button on the rightside of the table. The event is then saved to the user's brower local storage so it can be accessed again later even after closing the browser and launching the application again.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "jquery-logo.png",
+        "techName": "JQuery"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "momentjs-logo.png",
+        "techName": "Moment JS"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      },
+      {
+        "techImg": "photoshop-logo.png",
+        "techName": "Photoshop"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Code Quiz",
+    "liveSite": "https://nicholas-romano.github.io/Code-Quiz/",
+    "gitRepo": "https://github.com/nicholas-romano/Code-Quiz/",
+    "projectImg": "Code-Quiz_thumbnail.png",
+    "description": "This application is an interactive JavaScript Quiz Assessment which tests the user's JavaScript knowledge. The application is meant to have just a six question sample and it works by recording the user's right or wrong answers. The quiz is on a timer and the total time left when the quiz is complete will be the user's score. The quiz starts counting down from 75 and for every answer the user gets incorrect, 15 seconds are subtracted from the total time. For every answer the user gets correct, the count-down clock is uneffected. At the end of the quiz, the user can enter and submit their initials for the application to save their score inside a high-scores table containing scores saved in the browser's local storage. All of the scores are ranked from highest score to lowest score.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Password Generator",
+    "liveSite": "https://nicholas-romano.github.io/Password-Generator/",
+    "gitRepo": "https://github.com/nicholas-romano/Password-Generator/",
+    "projectImg": "Password-Generator_thumbnail.png",
+    "description": "This application utilizes the browser's window prompt function to accept user input and generate a password. The prompt sequence goes as followers: character length (minimum 8, maximum 128), special characters, numbers, uppercase letters, and lowercase letters. The user must respond with a valid number for character length, and respond 'y' for 'yes' to at least one of the last four criteria. After a password is generated, a copy button is displayed below it. When the user clicks the copy button, the password is automatically copied to the user's computer clipboard so they can paste it elsewhere.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Shoppers Stop",
+    "liveSite": "https://nicholas-romano.github.io/shoppers-stop/index.html",
+    "gitRepo": "https://github.com/nicholas-romano/Shoppers_Stop_App/",
+    "projectImg": "shoppers-stop-thumbnail.png",
+    "description": "This was an application I made that gives people a platform to make a shopping list and track their grocery expenses. Features include the ability to set a total funds amount, add items to the list, and add details to each item using an HTML5 range slider. Details include an items cost, calorie count, and weight. There is also a section on the right that calculates total cost, calories, and weight for all groceries purchased.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "redux-logo.png",
+        "techName": "Redux"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "atom-logo.png",
+        "techName": "Atom"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Stop Watch",
+    "liveSite": "https://nicholas-romano.github.io/stop-watch/index.html",
+    "gitRepo": "https://nicholas-romano.github.io/stop-watch/index.html",
+    "projectImg": "stop-watch-thumbnail.png",
+    "description": "The Stop watch starts at all zeros and counts up while tracking seconds, minutes and hours. There are four buttons: Start, Stop, Reset, and Lap. The buttons will enable/disable depending upon the activity taken by the user. For instance, in the initial state, the start button is enabled while all other buttons are disabled, and when the start button is pressed, the other buttons are enabled. After the timer has started, when the lap button is clicked, a table is displayed at the bottom that shows the first lap (1) in the table with a corresponding time next to it from when the lap button was pressed. This app is useful for runners.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "bootstrap-logo.jpeg",
+        "techName": "Bootstrap"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "atom-logo.png",
+        "techName": "Atom"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Space Fighters Game",
+    "liveSite": "https://nicholas-romano.github.io/Space_Fighters/",
+    "gitRepo": "https://github.com/nicholas-romano/Space-Fighters-Game/",
+    "projectImg": "Space_Fighters_thumbnail.png",
+    "description": "This is an interactive computer game made solely with HTML5, CSS3, and JavaScript. The objective of the game is to shoot missles at enemy UFOs flying around on the screen and destroy all five while avoiding a collision attack which detroys their spaceship. The player is given three ships from the start. Music is played in the background and sound effects are applied to the launch of the missles, explosion of the UFOs, and rocketship when impacted.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "atom-logo.png",
+        "techName": "Atom"
+      },
+      {
+        "techImg": "photoshop-logo.png",
+        "techName": "Photoshop"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Memory Card Game",
+    "liveSite": "https://nicholas-romano.github.io/Memory_Card_Game/match.html",
+    "gitRepo": "https://github.com/nicholas-romano/Memory_Card_Game/",
+    "projectImg": "memory_card_game_thumbnail.png",
+    "description": "This is a memory card game that uses a deck of 52 playing cards. The rules are: match two card names while ignoring the suit. For example, a 2 of clubs matches any other 2 regardless of suit. Therefore, there are 26 matches to find. The number of matches and attempts are tracked at the bottom, and a message is displayed at the top indicating whether a match was found or not. JavaScript is used to randomly shuffle the cards, flip them over on user click, and set the back design of each which can be set from the dropdown at the top.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "atom-logo.png",
+        "techName": "Atom"
+      },
+      {
+        "techImg": "photoshop-logo.png",
+        "techName": "Photoshop"
+      },
+      {
+        "techImg": "illustrator-logo.png",
+        "techName": "Illustrator"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rock Paper Scissors Game",
+    "liveSite": "https://nicholas-romano.github.io/Rock-Paper-Scissors_Game/rock_paper_scissors.html",
+    "projectImg": "rock_paper_scissors_thumbnail.png",
+    "description": "This is a rock-paper-scissors tournament using CSS3 animations that move the hands when a move is played against the computer. The tournament winner will need to win 3 games, 4 games, 5 games, etc whatever is chosen from the dropdown menu when the tournament starts.The hands and other graphics are made using Adobe Illustrator and the jQuery code takes care of the logic and calculates the amount of wins and losses between the user and the computer.",
+    "technologies": [
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "jquery-logo.png",
+        "techName": "JQuery"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "atom-logo.png",
+        "techName": "Atom"
+      },
+      {
+        "techImg": "illustrator-logo.png",
+        "techName": "Illustrator"
+      }
+    ]
+  }
 ]
