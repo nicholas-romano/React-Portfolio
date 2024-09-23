@@ -14,8 +14,8 @@ const About = () => {
                   educated at the University of North Carolina and James Madison
                   University. Skilled in responsive web technologies such as
                   HTML5, CSS3, JavaScript, JQuery and Bootstrap, and
-                  architectures such as ReactJS, ExpressJS, NodeJS and ASP.NET,
-                  and back-end data modeling technologies such as Sequelize and
+                  architectures such as ReactJS, ExpressJS, and NodeJS, and
+                  back-end data modeling technologies such as Sequelize and
                   Mongoose in connection to back-end databases such as MongoDB
                   and MySQL. Strengths include a passion for creativity,
                   dedication to problem-solving, and commitment to quality work.

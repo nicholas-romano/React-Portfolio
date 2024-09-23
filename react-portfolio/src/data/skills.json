@@ -2,6 +2,26 @@
   {
     "programming": [
       {
+        "skillImage": "reactjs-full.png",
+        "skillName": "React JS"
+      },
+      {
+        "skillImage": "React-Redux-full.png",
+        "skillName": "React Redux"
+      },
+      {
+        "skillImage": "React-Router-full.png",
+        "skillName": "React Router"
+      },
+      {
+        "skillImage": "Tailwind-CSS-full.png",
+        "skillName": "Tailwind CSS"
+      },
+      {
+        "skillImage": "Vitejs-logo-full.png",
+        "skillName": "Vite JS"
+      },
+      {
         "skillImage": "html5-full.png",
         "skillName": "HTML5"
       },
@@ -41,10 +61,7 @@
         "skillImage": "npm-full.png",
         "skillName": "Node Package Manager"
       },
-      {
-        "skillImage": "reactjs-full.png",
-        "skillName": "React JS"
-      },
+
       {
         "skillImage": "redux-full.png",
         "skillName": "Redux"

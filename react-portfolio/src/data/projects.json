@@ -1,5 +1,70 @@
 [
   {
+    "id": 21,
+    "title": "Piatto Delizioso Pizzeria",
+    "liveSite": "https://piatto-delizioso-pizzeria.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/Piatto-Delizioso",
+    "projectImg": "Piatto-Delizioso-Pizzeria.png",
+    "description": "The Piatto Delizioso app is a pizza ordering app developed using React JS and built using Vite JS that utilizes a Rest API to display the menu data including photos, titles,prices, and ingredients lists and has fully functional shopping cart, allowing users to add items to their cart and adjust their desired quantities all while automatically calculating the total price of the order. This app also features a helpful order search so the user can check on the status of their order and can choose to submit their geolocation when they enter their address. The application utilizes React Router for page routing, React-Redux with Thunk middleware for data handing, and Tailwind CSS for styling.",
+    "technologies": [
+      {
+        "techImg": "React-Redux.png",
+        "techName": "React Redux"
+      },
+      {
+        "techImg": "React-Router-logo.png",
+        "techName": "React Router"
+      },
+      {
+        "techImg": "vitejs-logo.png",
+        "techName": "Vite JS"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "Tailwind-CSS-logo.png",
+        "techName": "Tailwind CSS"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      },
+      {
+        "techImg": "illustrator-logo.png",
+        "techName": "Adobe Illustrator"
+      }
+    ]
+  },
+  {
     "id": 20,
     "title": "Song Search App",
     "liveSite": "https://song-search-app.netlify.app/",
