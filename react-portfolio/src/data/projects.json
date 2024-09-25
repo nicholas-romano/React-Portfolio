@@ -1,5 +1,53 @@
 [
   {
+    "id": 22,
+    "title": "Cinematic Discovery",
+    "liveSite": "https://cinematic-discovery.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/Cinematic-Discovery",
+    "projectImg": "Cinematic-Discovery.png",
+    "description": "The Cinematic Discovery Application was developed using React JS and it connects to the OMDB movie database API and gives the user the capability to view movie listings that match their search criteria. The application fetches data and uses error handling. When the user finds the movie they would like to watch, they can select it and read its details including movie poster, release date, duration, genre, average rating, and description. After the user watches the movie, they can then choose to leave a star rating and save it to their watched list by clicking the “add to list” button. When the user hovers over the interactive star rating component, each star lights up and when the desired rating is clicked, their rating is saved in their movies watched list and also saved to the browser's local storage. The saved movie can be viewed again later by selecting it from the watched list. Once the user adds the movie to their watched list, it is then saved to their browser localStorage. When the browser session is closed and opened again, it will pull the saved movie data from the watched list and display it in the application. The user can then choose to delete movies from their list by clicking the “X” icon next to each one.",
+    "technologies": [
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
     "id": 21,
     "title": "Piatto Delizioso Pizzeria",
     "liveSite": "https://piatto-delizioso-pizzeria.netlify.app/",
@@ -39,7 +87,6 @@
         "techImg": "npm-logo.png",
         "techName": "Node Package Manager"
       },
-
       {
         "techImg": "javascript_logo.png",
         "techName": "Javascript"
