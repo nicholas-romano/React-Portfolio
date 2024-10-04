@@ -1,22 +1,42 @@
-import React from 'react';
-import Nav from './Nav';
+import React from "react";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header>   
-        <div id="banner">
-          <h1>Nicholas Romano</h1>
-          <h3>Web Designer and Developer</h3>
-          <div className="resume-download">
-            <label><a href="mailto:njromano77@gmail.com">njromano77@gmail.com</a></label>&nbsp; &bull; &nbsp;
-            <label><a href="https://github.com/nicholas-romano">GitHub</a></label>&nbsp; &bull; &nbsp;
-            <label><a href="https://www.linkedin.com/in/nicholas-romano77/">LinkedIn</a></label>&nbsp; &bull; &nbsp;
-            <label><a href={process.env.PUBLIC_URL + '/Documents/Nicholas_Romano_Resume.pdf'}>Resumé</a></label>
-          </div>
-          <Nav />
+    <header>
+      <div id="banner">
+        <h1>Nicholas Romano</h1>
+        <h3>Web Designer and Developer</h3>
+        <div className="resume-download">
+          <label>
+            <a href="mailto:njromano77@gmail.com">njromano77@gmail.com</a>
+          </label>
+          &nbsp; &bull; &nbsp;
+          <label>
+            <a href="https://github.com/nicholas-romano">GitHub</a>
+          </label>
+          &nbsp; &bull; &nbsp;
+          <label>
+            <a href="https://www.linkedin.com/in/nicholas-romano77/">
+              LinkedIn
+            </a>
+          </label>
+          &nbsp; &bull; &nbsp;
+          <label>
+            <a
+              href={
+                process.env.PUBLIC_URL +
+                "/Documents/Nicholas-Romano-Development-Resume.pdf"
+              }
+            >
+              Resumé
+            </a>
+          </label>
         </div>
+        <Nav />
+      </div>
     </header>
   );
-}
+};
 
 export default Header;
