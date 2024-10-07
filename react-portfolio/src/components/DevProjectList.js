@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Project from "./Project";
-import projectData from "../data/projects.json";
+import Project from "./DevProject";
+import projectData from "../data/dev-projects.json";
 import "../App.css";
 
-const ProjectList = () => {
+const DevProjectList = () => {
   const [projectState, setProjectState] = useState([]);
 
   useEffect(() => {
@@ -34,4 +34,4 @@ const ProjectList = () => {
   );
 };
 
-export default ProjectList;
+export default DevProjectList;
