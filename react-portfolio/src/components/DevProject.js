@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TechItem from "./TechItem";
 import ButtonLink from "./ButtonLink";
+import { TextExpander } from "./TextExpander";
 
 const DevProject = (props) => {
   const [tabState, setTabState] = useState({
@@ -127,8 +128,8 @@ const DevProject = (props) => {
             role="tabpanel"
             aria-labelledby="description-tab"
           >
-            <h5>Description</h5>
-            <p>{description}</p>
+            <h5>Description:</h5>
+            <TextExpander>{description}</TextExpander>
           </div>
           <div
             className={
