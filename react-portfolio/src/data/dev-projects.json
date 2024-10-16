@@ -1,5 +1,77 @@
 [
   {
+    "id": 23,
+    "title": "World Traveler",
+    "liveSite": "https://world-traveler-tracker.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/World-Traveler",
+    "projectImg": "World-Traveler_thumbnail.png",
+    "description": "The World Traveler application uses a global interactive map that the user can click on and add a geolocation pin that they can use to save their experiences. There is also a button that can track the user’s geolocation. Once the user approves the use of geolocation in their browser, the map will then move to the country and region of the world they are located in. In order to save trip details, when they click on a city on the map, that location is automatically displayed in a form on the left side of the screen where they can enter their trip details such as the date when they travelled to that city and any notes they want to write about it. The details of their trip are then be saved to their list of visited cities in their browser's local storage. They can then select a city from the list and view their saved trip details. They can also view a list of countries visited by selecting the countries list tab.",
+    "technologies": [
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "React-Redux.png",
+        "techName": "React Redux"
+      },
+      {
+        "techImg": "context-api-logo.png",
+        "techName": "Context API"
+      },
+      {
+        "techImg": "geolocation-api-logo.png",
+        "techName": "Geolocation API"
+      },
+      {
+        "techImg": "React-Router-logo.png",
+        "techName": "React Router"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      },
+      {
+        "techImg": "illustrator-logo.png",
+        "techName": "Adobe Illustrator"
+      },
+      {
+        "techImg": "photoshop-logo.png",
+        "techName": "Photoshop"
+      }
+    ]
+  },
+  {
     "id": 22,
     "title": "Cinematic Discovery",
     "liveSite": "https://cinematic-discovery.netlify.app/",
