@@ -18,6 +18,10 @@
         "skillName": "Context API"
       },
       {
+        "skillImage": "angular-logo-full.png",
+        "skillName": "Angular"
+      },
+      {
         "skillImage": "geolocation-api-full.png",
         "skillName": "Geolocation API"
       },
