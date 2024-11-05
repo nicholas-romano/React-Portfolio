@@ -1,5 +1,81 @@
 [
   {
+    "id": 24,
+    "title": "Rent Cabins Now",
+    "liveSite": "https://rent-cabins-now.vercel.app/",
+    "gitRepo": "https://github.com/nicholas-romano/Rent-Cabins-Now",
+    "projectImg": "Rent-Cabins-Now_thumbnail.png",
+    "description": "The Rent Cabins Now application is a resource to manage cabin bookings. The application is meant to be used by employees to track a customer’s status and invoice amounts. This application is fully customizable allowing the user to edit cabin details such as current customer status, min/max amounts for number of guests and length of stay, and cost of breakfast. The most interesting feature of this app is the analytical charts displayed on the dashboard. It includes up-to-date statistics over time showing types of customer bookings and total sales. The application is populated with sample data hosted on a Supabase web server and is displayed in paginated lists inside the user interface. The user also has the ability to toggle between light mode and dark mode for the display.",
+    "technologies": [
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "react-query-logo",
+        "techName": "React Query"
+      },
+      {
+        "techImg": "context-api-logo.png",
+        "techName": "Context API"
+      },
+      {
+        "techImg": "React-Router-logo.png",
+        "techName": "React Router"
+      },
+      {
+        "techImg": "Supabase-logo.png",
+        "techName": "Supabase"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "styled-components-logo.png",
+        "techName": "Styled Components"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "javascript_logo.png",
+        "techName": "Javascript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      },
+      {
+        "techImg": "illustrator-logo.png",
+        "techName": "Adobe Illustrator"
+      },
+      {
+        "techImg": "photoshop-logo.png",
+        "techName": "Photoshop"
+      }
+    ]
+  },
+  {
     "id": 23,
     "title": "World Traveler",
     "liveSite": "https://world-traveler-tracker.netlify.app/",

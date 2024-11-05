@@ -6,12 +6,20 @@
         "skillName": "React JS"
       },
       {
+        "skillImage": "React-Query_thumbnail.jpg",
+        "skillName": "React Query"
+      },
+      {
         "skillImage": "React-Redux-full.png",
         "skillName": "React Redux"
       },
       {
         "skillImage": "React-Router-full.png",
         "skillName": "React Router"
+      },
+      {
+        "skillImage": "Supabase_thumbnail.png",
+        "skillName": "Supabase"
       },
       {
         "skillImage": "context-api-logo-full.png",
@@ -36,6 +44,10 @@
       {
         "skillImage": "html5-full.png",
         "skillName": "HTML5"
+      },
+      {
+        "skillImage": "Styled-Components_thumbnail.png",
+        "skillName": "Styled Components"
       },
       {
         "skillImage": "css3-full.png",
@@ -73,7 +85,6 @@
         "skillImage": "npm-full.png",
         "skillName": "Node Package Manager"
       },
-
       {
         "skillImage": "redux-full.png",
         "skillName": "Redux"
