@@ -9,7 +9,9 @@ const Header = () => {
         <h3>Web Designer and Developer</h3>
         <div className="resume-download">
           <label>
-            <a href="mailto:njromano77@gmail.com">njromano77@gmail.com</a>
+            <a href="mailto:nicholasromano238@gmail.com">
+              nicholasromano238@gmail.com
+            </a>
           </label>
           &nbsp; &bull; &nbsp;
           <label>
@@ -25,8 +27,7 @@ const Header = () => {
           <label>
             <a
               href={
-                process.env.PUBLIC_URL +
-                "/Documents/Nicholas-Romano-Development-Resume.pdf"
+                process.env.PUBLIC_URL + "/Documents/Nicholas-Romano-Resume.pdf"
               }
             >
               Resumé

@@ -2,6 +2,15 @@
   {
     "programming": [
       {
+        "skillImage": "java-logo-full.png",
+        "skillName": "Java"
+      },
+      {
+        "skillImage": "Java-Spring-Boot-full.png",
+        "skillName": "Java Spring Boot"
+      },
+
+      {
         "skillImage": "reactjs-full.png",
         "skillName": "React JS"
       },
