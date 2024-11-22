@@ -14,9 +14,6 @@ const Nav = () => {
       case "/skills":
         setActivePage("skills");
         break;
-      case "/contact":
-        setActivePage("contact");
-        break;
       case "/credentials":
         setActivePage("credentials");
         break;
@@ -105,17 +102,6 @@ const Nav = () => {
               to="/credentials"
             >
               Credentials
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              onClick={() => setActivePage("contact")}
-              className={
-                activePage === "contact" ? "nav-link active" : "nav-link"
-              }
-              to="/contact"
-            >
-              Contact
             </Link>
           </li>
         </ul>

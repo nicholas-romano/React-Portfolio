@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import "./App.css";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Credentials from "./components/Credentials";
 import MobileAppDesigns from "./components/MobileAppDesigns";
@@ -17,7 +16,6 @@ function App() {
       <Switch>
         <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/credentials" component={Credentials} />
         <Route path="/mobile-app-designs" component={MobileAppDesigns} />
         <Route path="/dev-projects" component={DevProjects} />
