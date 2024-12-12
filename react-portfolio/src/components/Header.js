@@ -9,9 +9,7 @@ const Header = () => {
         <h3>Full-Stack Web Developer</h3>
         <div className="resume-download">
           <label>
-            <a href="mailto:nicholasromano238@gmail.com">
-              nicholasromano238@gmail.com
-            </a>
+            <a href="mailto:njromano77@gmail.com">njromano77@gmail.com</a>
           </label>
           &nbsp; &bull; &nbsp;
           <label>
