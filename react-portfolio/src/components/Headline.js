@@ -1,6 +1,11 @@
 import React from "react";
 
 function Headline() {
+  function scrollFunction() {
+    const element = document.getElementById("project_porfolio");
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <section
       id="headline"
@@ -11,13 +16,13 @@ function Headline() {
         })`,
       }}
     >
-      <div class="headline-text">
-        <div class="headline-title">
+      <div className="headline-text">
+        <div className="headline-title">
           <h1>The Wild Oasis</h1>
           <h3>Welcome to paradise</h3>
         </div>
 
-        <div class="headline-subtext">
+        <div className="headline-subtext">
           <h5>
             My latest featured project is a luxury cabin rental application with
             beautiful cabin photos, search filters, interactive calendars, and
@@ -25,7 +30,17 @@ function Headline() {
           </h5>
         </div>
 
-        <a
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={scrollFunction}
+        >
+          See projects
+          <br />
+          &dArr;
+        </button>
+
+        {/* <a
           href="https://the-wild-oasis-swart-mu.vercel.app/"
           target="_blank"
           title="The Wild Oasis"
@@ -34,7 +49,7 @@ function Headline() {
           <button type="button" class="btn btn-primary">
             See project &gt;&gt;
           </button>
-        </a>
+        </a> */}
       </div>
     </section>
   );
