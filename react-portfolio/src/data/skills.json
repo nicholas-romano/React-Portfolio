@@ -9,10 +9,13 @@
         "skillImage": "Java-Spring-Boot-full.png",
         "skillName": "Java Spring Boot"
       },
-
       {
         "skillImage": "reactjs-full.png",
         "skillName": "React JS"
+      },
+      {
+        "skillImage": "NextJS-logo-full.png",
+        "skillName": "Next JS"
       },
       {
         "skillImage": "React-Query_thumbnail.jpg",
