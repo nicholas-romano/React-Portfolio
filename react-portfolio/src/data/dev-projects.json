@@ -20,10 +20,6 @@
         "techName": "Context API"
       },
       {
-        "techImg": "React-Router-logo.png",
-        "techName": "React Router"
-      },
-      {
         "techImg": "Supabase-logo.png",
         "techName": "Supabase"
       },
@@ -64,10 +60,6 @@
       {
         "techImg": "visual-studio-logo.png",
         "techName": "Visual Studio"
-      },
-      {
-        "techImg": "illustrator-logo.png",
-        "techName": "Adobe Illustrator"
       },
       {
         "techImg": "photoshop-logo.png",
