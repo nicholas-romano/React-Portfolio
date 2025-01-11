@@ -5,7 +5,7 @@
     "liveSite": "https://the-wild-oasis-swart-mu.vercel.app/",
     "gitRepo": "https://github.com/nicholas-romano/The-Wild-Oasis",
     "projectImg": "The-Wild-Oasis_thumbnail.png",
-    "description": "The Wild Oasis is a cabin rental website to book cabin rentals. The user can create their own account using Google authentication and then can choose from various luxury cabins to reserve. When the user chooses a cabin, they can then select their check-in and check-out dates in an interactive date picker which highlights the date range they chose and then they can choose how many guests they plan to bring and enter any notes in a web form and reserve. The application is populated with sample data hosted on a Supabase web server and that data is used to disable certain dates on the calendar when a cabin is already booked.",
+    "description": "The Wild Oasis is a cabin rental website where the user can create their own account using Google authentication and then can choose from various luxury cabins to reserve. When the user chooses a cabin, they can then select their check-in and check-out dates in an interactive date picker which highlights the date range they chose and then they can choose how many guests they plan to bring and enter any notes in a web form and reserve. The application is populated with sample data hosted on a Supabase web server and that data is used to disable certain dates on the calendar when a cabin is already booked.",
     "technologies": [
       {
         "techImg": "react-js-logo.png",
