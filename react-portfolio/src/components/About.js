@@ -29,9 +29,9 @@ const About = () => {
             <div className="col-lg-6">
               <div className="column-content">
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/Nicholas_Romano_Profile_Photo.jpeg`}
+                  src={`${process.env.PUBLIC_URL}/images/Portfolio-Photo.jpg`}
                   className="img-fluid"
-                  alt="Nick Romano Profile"
+                  alt="Nicholas Romano Profile"
                 />
               </div>
             </div>
