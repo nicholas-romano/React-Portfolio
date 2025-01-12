@@ -20,6 +20,9 @@ const Nav = () => {
       case "/mobile-app-designs":
         setActivePage("mobile-app-designs");
         break;
+      case "/desktop-designs":
+        setActivePage("desktop-designs");
+        break;
       case "/dev-projects":
         setActivePage("dev-projects");
         break;
@@ -91,6 +94,19 @@ const Nav = () => {
               to="/mobile-app-designs"
             >
               Mobile App Designs
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              onClick={() => setActivePage("desktop-designs")}
+              className={
+                activePage === "desktop-designs"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              to="/desktop-designs"
+            >
+              Desktop Designs
             </Link>
           </li>
           <li className="nav-item">

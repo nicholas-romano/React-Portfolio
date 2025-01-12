@@ -1,6 +1,6 @@
 import React from "react";
-import Headline from "./Headline";
 import DevProjectList from "./DevProjectList";
+import Headline from "./Headline";
 
 const DevProjects = () => {
   return (

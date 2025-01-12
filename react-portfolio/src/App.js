@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Credentials from "./components/Credentials";
 import MobileAppDesigns from "./components/MobileAppDesigns";
 import DevProjects from "./components/DevProjects";
+import DesktopDesigns from "./components/DesktopDesigns";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/credentials" component={Credentials} />
         <Route path="/mobile-app-designs" component={MobileAppDesigns} />
+        <Route path="/desktop-designs" component={DesktopDesigns} />
         <Route path="/dev-projects" component={DevProjects} />
         <Route path="*" component={DevProjects} />
       </Switch>
