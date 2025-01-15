@@ -2,6 +2,11 @@
   padding: 5px 0 0 0;
 }
 
+body,
+html {
+  scroll-padding-top: 200px; /* adjust the pixel amount here for your top navigation bar height */
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -116,7 +121,6 @@ header img {
 }
 
 #headline {
-  background-color: navy;
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
