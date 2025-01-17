@@ -1,84 +1,252 @@
 [
-    {
-        "id": 1,
-        "title": "Raleigh Jazz App",
-        "desc": "This is an interactive prototype of a mobile app for local Jazz events in the Raleigh, North Carolina area. It was created using Figma.",
-        "dir": "mobile-app-slideshows/Raleigh-Jazz-App/",
-        "url": "https://www.figma.com/proto/d3SrM3Zkm2vGD95iR9wYIU/Event-App-v1.0?page-id=0%3A1&node-id=19-148&viewport=299%2C275%2C0.17&t=HwRbQB0tmNH82I1b-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A148&show-proto-sidebar=1",
-        "videoSrc": "https://www.youtube.com/embed/7IxhO-Tn91o?si=UiEnAgEzKTYf-VOe",
-        "slides": [
-            "raleigh-jazz-main.png",
-            "raleigh-jazz-home.png",
-            "raleigh-jazz-menu.png",
-            "raleigh-jazz-event.png",
-            "raleigh-jazz-comments.png",
-            "raleigh-jazz-comment-box.png",
-            "raleigh-jazz-artist-profiles.png",
-            "raleigh-jazz-artist-profile.png",
-            "raleigh-jazz-checkout-1.png",
-            "raleigh-jazz-checkout-1-ticket.png",
-            "raleigh-jazz-attendee-info.png",
-            "raleigh-jazz-payment.png",
-            "raleigh-jazz-confirmation.png"
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Ecom App",
-        "desc": "This is an interactive prototype of an e-commerce mobile app for a laptop. It was created using Figma.",
-        "dir": "mobile-app-slideshows/Ecom-App/",
-        "url": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FW1EPSO5aTWWZv01nhbc964%2FNick-Ecom-V1%3Fpage-id%3D49%253A2%26node-id%3D49-10%26viewport%3D678%252C505%252C1.13%26t%3D77Qpb8SqXXD6SMz6-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D49%253A10%26show-proto-sidebar%3D1",
-        "videoSrc": "https://www.youtube.com/embed/Lkkk8br8JSk?si=qT4tzlmQfAsstNw2",
-        "slides": [
-            "ecom-app-home.png",
-            "ecom-app-side-nav.png",
-            "ecom-app-product.png",
-            "ecom-app-chat-now.png",
-            "ecom-app-account.png",
-            "ecom-app-account-save.png",
-            "ecom-app-reviews.png",
-            "ecom-app-review-box.png",
-            "ecom-app-checkout.png",
-            "ecom-app-confirmation.png"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Bird Finder App",
-        "desc": "This is an interactive prototype of a mobile app used for identifying and finding birds both locally and elsewhere. It was created using Figma.",
-        "dir": "mobile-app-slideshows/Bird-Finder-App/",
-        "url": "https://www.figma.com/proto/hdrZCUcX3bqJT7sqdSueT4/Bird-Finder-App?page-id=0%3A1&node-id=3-2&viewport=262%2C399%2C0.43&t=vlS0CAJEKee8q6bY-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A46&show-proto-sidebar=1",
-        "videoSrc": "https://www.youtube.com/embed/KzUQ8wCZA-M?si=_gWkoeuYDHeEf7K4",
-        "slides": [
-            "Bird-Finder-App-Splash.png",
-            "Bird-Finder-App-Login.png",
-            "Bird-Finder-App-Account.png",
-            "Bird-Finder-App-Find-a-Bird.png",
-            "Bird-Finder-App-Search-List.png",
-            "Bird-Finder-App-Search-Tiles.png",
-            "Bird-Finder-App-Favorites.png",
-            "Bird-Finder-App-Bird-Description.png",
-            "Bird-Finder-App-Bird-Appearance.png",
-            "Bird-Finder-App-Bird-Habitat.png",
-            "Bird-Finder-App-Behavior.png"
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Do Local App",
-        "desc": "This is an interactive prototype of a mobile app for finding popular tourist attractions based on search location. It was created using Figma.",
-        "dir": "mobile-app-slideshows/Do-Local-App/",
-        "url": "https://xd.adobe.com/view/7133cbe6-af4a-40ea-9f3d-53fe21ce05f7-2460/?fullscreen",
-        "videoSrc": "https://www.youtube.com/embed/_yIJRnqJ1Mc?si=04CifgMeyfwN-qCn",
-        "slides": [
-            "Do-Local-splash.png",
-            "Do-Local-login.png",
-            "Do-Local-activity.png",
-            "Do-Local-search.png",
-            "Do-Local-activity-details.png",
-            "Do-Local-activity-collections.png",
-            "Do-Local-menu.png",
-            "Do-Local-activity-calendar.png"
-        ]
-    }
+  {
+    "id": 1,
+    "title": "Raleigh Jazz App",
+    "desc": "This is an interactive prototype of a mobile app for local Jazz events in the Raleigh, North Carolina area. It was created using Figma.",
+    "dir": "mobile-app-slideshows/Raleigh-Jazz-App/",
+    "url": "https://www.figma.com/proto/d3SrM3Zkm2vGD95iR9wYIU/Event-App-v1.0?page-id=0%3A1&node-id=19-148&viewport=299%2C275%2C0.17&t=HwRbQB0tmNH82I1b-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A148&show-proto-sidebar=1",
+    "videoSrc": "https://www.youtube.com/embed/7IxhO-Tn91o?si=UiEnAgEzKTYf-VOe",
+    "slides": [
+      {
+        "name": "Raleigh Jazz Main Screen",
+        "image": "raleigh-jazz-main.png",
+        "modalImage": "raleigh-jazz-main-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Home Screen",
+        "image": "raleigh-jazz-home.png",
+        "modalImage": "raleigh-jazz-home-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Side Menu Screen",
+        "image": "raleigh-jazz-menu.png",
+        "modalImage": "raleigh-jazz-menu-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Event Screen",
+        "image": "raleigh-jazz-event.png",
+        "modalImage": "raleigh-jazz-event-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Comments Screen",
+        "image": "raleigh-jazz-comments.png",
+        "modalImage": "raleigh-jazz-comments-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Comment Box Screen",
+        "image": "raleigh-jazz-comment-box.png",
+        "modalImage": "raleigh-jazz-comment-box-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Artist Profiles Screen",
+        "image": "raleigh-jazz-artist-profiles.png",
+        "modalImage": "raleigh-jazz-artist-profiles-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Artist Profile Screen",
+        "image": "raleigh-jazz-artist-profile.png",
+        "modalImage": "raleigh-jazz-artist-profile-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Checkout Ticket Screen",
+        "image": "raleigh-jazz-checkout-ticket.png",
+        "modalImage": "raleigh-jazz-checkout-ticket-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Attendee Info Screen",
+        "image": "raleigh-jazz-attendee-info.png",
+        "modalImage": "raleigh-jazz-attendee-info-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Payment Screen",
+        "image": "raleigh-jazz-payment.png",
+        "modalImage": "raleigh-jazz-payment-1560.png"
+      },
+      {
+        "name": "Raleigh Jazz Confirmation Screen",
+        "image": "raleigh-jazz-confirmation.png",
+        "modalImage": "raleigh-jazz-confirmation-1560.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ecom App",
+    "desc": "This is an interactive prototype of an e-commerce mobile app for a laptop. It was created using Figma.",
+    "dir": "mobile-app-slideshows/Ecom-App/",
+    "url": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FW1EPSO5aTWWZv01nhbc964%2FNick-Ecom-V1%3Fpage-id%3D49%253A2%26node-id%3D49-10%26viewport%3D678%252C505%252C1.13%26t%3D77Qpb8SqXXD6SMz6-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D49%253A10%26show-proto-sidebar%3D1",
+    "videoSrc": "https://www.youtube.com/embed/Lkkk8br8JSk?si=qT4tzlmQfAsstNw2",
+    "slides": [
+      {
+        "name": "Ecom App Home Screen",
+        "image": "ecom-app-home.png",
+        "modalImage": "ecom-app-home-1560.png"
+      },
+      {
+        "name": "Ecom App Side Nav Screen",
+        "image": "ecom-app-side-nav.png",
+        "modalImage": "ecom-app-side-nav-1560.png"
+      },
+      {
+        "name": "Ecom App Product Screen",
+        "image": "ecom-app-product.png",
+        "modalImage": "ecom-app-product-1560.png"
+      },
+      {
+        "name": "Ecom App Chat Now Screen",
+        "image": "ecom-app-chat-now.png",
+        "modalImage": "ecom-app-chat-now-1560.png"
+      },
+      {
+        "name": "Ecom App Account Screen",
+        "image": "ecom-app-account.png",
+        "modalImage": "ecom-app-account-1560.png"
+      },
+      {
+        "name": "Ecom App Account Save Screen",
+        "image": "ecom-app-account-save.png",
+        "modalImage": "ecom-app-account-save-1560.png"
+      },
+      {
+        "name": "Ecom App Reviews Screen",
+        "image": "ecom-app-reviews.png",
+        "modalImage": "ecom-app-reviews-1560.png"
+      },
+      {
+        "name": "Ecom App Review Box Screen",
+        "image": "ecom-app-review-box.png",
+        "modalImage": "ecom-app-review-box-1560.png"
+      },
+      {
+        "name": "Ecom App Checkout Screen",
+        "image": "ecom-app-checkout.png",
+        "modalImage": "ecom-app-checkout-1560.png"
+      },
+      {
+        "name": "Ecom App Confirmation Screen",
+        "image": "ecom-app-confirmation.png",
+        "modalImage": "ecom-app-confirmation-1560.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bird Finder App",
+    "desc": "This is an interactive prototype of a mobile app used for identifying and finding birds both locally and elsewhere. It was created using Figma.",
+    "dir": "mobile-app-slideshows/Bird-Finder-App/",
+    "url": "https://www.figma.com/proto/hdrZCUcX3bqJT7sqdSueT4/Bird-Finder-App?page-id=0%3A1&node-id=3-2&viewport=262%2C399%2C0.43&t=vlS0CAJEKee8q6bY-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A46&show-proto-sidebar=1",
+    "videoSrc": "https://www.youtube.com/embed/KzUQ8wCZA-M?si=_gWkoeuYDHeEf7K4",
+    "slides": [
+      {
+        "name": "Bird Finder App Splash Screen",
+        "image": "Bird-Finder-App-Splash.png",
+        "modalImage": "Bird-Finder-App-Splash-1560.png"
+      },
+      {
+        "name": "Bird Finder App Login Screen",
+        "image": "Bird-Finder-App-Login.png",
+        "modalImage": "Bird-Finder-App-Login-1560.png"
+      },
+      {
+        "name": "Bird Finder App Account Screen",
+        "image": "Bird-Finder-App-Account.png",
+        "modalImage": "Bird-Finder-App-Account-1560.png"
+      },
+      {
+        "name": "Bird Finder App Find a Bird Screen",
+        "image": "Bird-Finder-App-Find-A-Bird.png",
+        "modalImage": "Bird-Finder-App-Find-A-Bird-1560.png"
+      },
+      {
+        "name": "Bird Finder App Search List Screen",
+        "image": "Bird-Finder-App-Search-List.png",
+        "modalImage": "Bird-Finder-App-Search-List-1560.png"
+      },
+      {
+        "name": "Bird Finder App Search Tiles Screen",
+        "image": "Bird-Finder-App-Search-Tiles.png",
+        "modalImage": "Bird-Finder-App-Search-Tiles-1560.png"
+      },
+      {
+        "name": "Bird Finder App Favorites Screen",
+        "image": "Bird-Finder-App-Favorites.png",
+        "modalImage": "Bird-Finder-App-Favorites-1560.png"
+      },
+      {
+        "name": "Bird Finder App Bird Description Screen",
+        "image": "Bird-Finder-App-Bird-Description.png",
+        "modalImage": "Bird-Finder-App-Bird-Description-1560.png"
+      },
+      {
+        "name": "Bird Finder App Bird Appearance Screen",
+        "image": "Bird-Finder-App-Bird-Appearance.png",
+        "modalImage": "Bird-Finder-App-Bird-Appearance-1560.png"
+      },
+      {
+        "name": "Bird Finder App Bird Habitat Screen",
+        "image": "Bird-Finder-App-Bird-Habitat.png",
+        "modalImage": "Bird-Finder-App-Bird-Habitat-1560.png"
+      },
+      {
+        "name": "Bird Finder App Bird Habitat Map Screen",
+        "image": "Bird-Finder-App-Bird-Habitat-Map.png",
+        "modalImage": "Bird-Finder-App-Bird-Habitat-Map-1560.png"
+      },
+      {
+        "name": "Bird Finder App Behavior Screen",
+        "image": "Bird-Finder-App-Bird-Behavior.png",
+        "modalImage": "Bird-Finder-App-Bird-Behavior-1560.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Do Local App",
+    "desc": "This is an interactive prototype of a mobile app for finding popular tourist attractions based on search location. It was created using Figma.",
+    "dir": "mobile-app-slideshows/Do-Local-App/",
+    "url": "https://xd.adobe.com/view/7133cbe6-af4a-40ea-9f3d-53fe21ce05f7-2460/?fullscreen",
+    "videoSrc": "https://www.youtube.com/embed/_yIJRnqJ1Mc?si=04CifgMeyfwN-qCn",
+    "slides": [
+      {
+        "name": "Do Local App Splash Screen",
+        "image": "Do-Local-splash.png",
+        "modalImage": "Do-Local-splash-1560.png"
+      },
+      {
+        "name": "Do Local App Login Screen",
+        "image": "Do-Local-login.png",
+        "modalImage": "Do-Local-login-1560.png"
+      },
+      {
+        "name": "Do Local App Activity Screen",
+        "image": "Do-Local-activity.png",
+        "modalImage": "Do-Local-activity-1560.png"
+      },
+      {
+        "name": "Do Local App Search Screen",
+        "image": "Do-Local-search.png",
+        "modalImage": "Do-Local-search-1560.png"
+      },
+      {
+        "name": "Do Local App Activity Details Screen",
+        "image": "Do-Local-activity-details.png",
+        "modalImage": "Do-Local-activty-details-1560.png"
+      },
+      {
+        "name": "Do Local App Activity Collections Screen",
+        "image": "Do-Local-activity-collections.png",
+        "modalImage": "Do-Local-activity-collections-1560.png"
+      },
+      {
+        "name": "Do Local App Menu Screen",
+        "image": "Do-Local-menu.png",
+        "modalImage": "Do-Local-menu-1560.png"
+      },
+      {
+        "name": "Do Local App Activity Calendar Screen",
+        "image": "Do-Local-calendar.png",
+        "modalImage": "Do-Local-calendar-1560.png"
+      }
+    ]
+  }
 ]

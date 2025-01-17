@@ -1,21 +1,16 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
+import CarouselSlide from "./CarouselSlide";
 
-function CarouselContainer(props) {
-
-  const { dir, slides, title } = props;
-
+function CarouselContainer({ slides, dir }) {
   return (
     <Carousel slide={false}>
-      {
-                     slides.map((slide, i = 1) => (
-                        <Carousel.Item key={i}>
-                            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/' + dir + slide} alt={title + " screenshot " + i} />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    ))
-                }          
+      {slides.map((slide, i = 1) => (
+        <Carousel.Item key={i}>
+          <CarouselSlide slide={slide} dir={dir} key={i} />
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }

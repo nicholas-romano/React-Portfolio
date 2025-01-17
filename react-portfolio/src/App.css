@@ -190,6 +190,10 @@ header img {
 
 .project {
   margin-bottom: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 div.tab-content.project-description {
@@ -282,8 +286,10 @@ section#project_porfolio.content_section .category .project .project-container {
   border-radius: 10px;
   -webkit-box-shadow: 4px 4px 5px gray;
   box-shadow: 4px 4px 5px gray;
-  width: 100%;
   margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 section#project_porfolio.content_section
   .category

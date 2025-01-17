@@ -1,82 +1,215 @@
 [
-    {
-        "id": 1,
-        "title": "Atlantim",
-        "desc": "This is a static mockup for a service provider website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/Atlantim-Desktop/",
-        "slides": [
-            "Atlantim-home-slide-menu.png",
-            "Atlantim-home-slide-menu-2.png",
-            "Atlantim-services.png",
-            "Atlantim-services-2.png",
-            "Atlantim-services-3.png"
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Cruneo",
-        "desc": "This is a static mockup design for a German travel accomodations website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/Cruneo-Desktop/",
-        "slides": [
-            "Cruneo-home.png",
-            "Cruneo-home-2.png",
-            "Cruneo-form.png",
-            "Cruneo-form-2.png"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "eDocs",
-        "desc": "This is a static mockup for a document management website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/eDocs-Desktop/",
-        "slides": [
-            "eDocs-contract-document-listings.png",
-            "eDocs-contract-document-listings-2.png",
-            "eDocs-contract-search.png"
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Live Famously",
-        "desc": "This is a static mockup for a fashion accessories designer website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/Live-Famously-Desktop/",
-        "slides": [
-            "Live-Famously-home.png",
-            "Live-Famously-home-2.png",
-            "Live-Famously-home-3.png",
-            "Live-Famously-about-us.png",
-            "Live-Famously-about-us-2.png",
-            "Live-Famously-about-us-3.png"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Othram Discover",
-        "desc": "This is a static mockup for a DNA analysis and forensics website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/Othram-Discover-Desktop/",
-        "slides": [
-            "Othram-Discover-Haplogroup-Report.png",
-            "Othram-Discover-Haplogroup-Report-2.png",
-            "Othram-Discover-Landing-Page.png",
-            "Othram-Discover-Landing-Page-2.png",
-            "Othram-Discover-Landing-Page-3.png",
-            "Othram-Discover-Identity-Details.png",
-            "Othram-Discover-Identity-Details-2.png",
-            "Othram-Discover-Identity-Details-3.png",
-            "Othram-Discover-Identity-Details-4.png"
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Rental Moving Boxes",
-        "desc": "This is a static mockup for a rental moving boxes website. It was designed using Adobe Photoshop.",
-        "dir": "desktop-design-slideshows/Rental-Moving-Boxes-Desktop/",
-        "slides": [
-            "Rental-Moving-Boxes-home.png",
-            "Rental-Moving-Boxes-home-2.png",
-            "Rental-Moving-Boxes-home-3.png",
-            "Rental-Moving-Boxes-home-4.png",
-            "Rental-Moving-Boxes-home-5.png"
-        ]
-    }
+  {
+    "id": 1,
+    "title": "Atlantim",
+    "desc": "This is a static mockup for a service provider website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/Atlantim-Desktop/",
+    "slides": [
+      {
+        "name": "Atlantim Home Page",
+        "image": "Atlantim-home-page.png",
+        "modalImage": "Atlantim-home-page-1600.png"
+      },
+      {
+        "name": "Atlantim Home Slide Menu",
+        "image": "Atlantim-home-slide-menu.png",
+        "modalImage": "Atlantim-slide-out-menu-1600.png"
+      },
+      {
+        "name": "Atlantim Home Slide Menu",
+        "image": "Atlantim-home-slide-menu-2.png",
+        "modalImage": "Atlantim-slide-out-menu-1600.png"
+      },
+      {
+        "name": "Atlantim Services Page",
+        "image": "Atlantim-services.png",
+        "modalImage": "Atlantim-Services-1600.png"
+      },
+      {
+        "name": "Atlantim Services Page",
+        "image": "Atlantim-services-2.png",
+        "modalImage": "Atlantim-Services-1600.png"
+      },
+      {
+        "name": "Atlantim Services Page",
+        "image": "Atlantim-services-3.png",
+        "modalImage": "Atlantim-Services-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cruneo",
+    "desc": "This is a static mockup design for a German travel accomodations website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/Cruneo-Desktop/",
+    "slides": [
+      {
+        "name": "Cruneo Home Page",
+        "image": "Cruneo-home.png",
+        "modalImage": "Cruneo-Home-1600.png"
+      },
+      {
+        "name": "Cruneo Home Page",
+        "image": "Cruneo-home-2.png",
+        "modalImage": "Cruneo-Home-1600.png"
+      },
+      {
+        "name": "Cruneo Form Page",
+        "image": "Cruneo-form.png",
+        "modalImage": "Cruneo-Form-1600.png"
+      },
+      {
+        "name": "Cruneo Form Page",
+        "image": "Cruneo-form-2.png",
+        "modalImage": "Cruneo-Form-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "eDocs",
+    "desc": "This is a static mockup for a document management website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/eDocs-Desktop/",
+    "slides": [
+      {
+        "name": "eDocs Contract Document Listings",
+        "image": "eDocs-contract-document-listings.png",
+        "modalImage": "eDocs-Contract-Document-Listing-1600.png"
+      },
+      {
+        "name": "eDocs Contract Document Listings",
+        "image": "eDocs-contract-document-listings-2.png",
+        "modalImage": "eDocs-Contract-Document-Listing-1600.png"
+      },
+      {
+        "name": "eDocs Contract Search",
+        "image": "eDocs-contract-search.png",
+        "modalImage": "eDocs-Contract-Search-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Live Famously",
+    "desc": "This is a static mockup for a fashion accessories designer website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/Live-Famously-Desktop/",
+    "slides": [
+      {
+        "name": "Live Famously Home Page",
+        "image": "Live-Famously-home.png",
+        "modalImage": "Live-Famously-Home-Page-1600.png"
+      },
+      {
+        "name": "Live Famously Home Page",
+        "image": "Live-Famously-home-2.png",
+        "modalImage": "Live-Famously-Home-Page-1600.png"
+      },
+      {
+        "name": "Live Famously Home Page",
+        "image": "Live-Famously-home-3.png",
+        "modalImage": "Live-Famously-Home-Page-1600.png"
+      },
+      {
+        "name": "Live Famously About Us Page 1",
+        "image": "Live-Famously-about-us.png",
+        "modalImage": "Live-Famously-About-Us-Page-1600.png"
+      },
+      {
+        "name": "Live Famously About Us Page 2",
+        "image": "Live-Famously-about-us-2.png",
+        "modalImage": "Live-Famously-About-Us-Page-1600.png"
+      },
+      {
+        "name": "Live Famously About Us Page 2",
+        "image": "Live-Famously-about-us-3.png",
+        "modalImage": "Live-Famously-About-Us-Page-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Othram Discover",
+    "desc": "This is a static mockup for a DNA analysis and forensics website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/Othram-Discover-Desktop/",
+    "slides": [
+      {
+        "name": "Ortham Discover Haplogroup Report Page",
+        "image": "Othram-Discover-Haplogroup-Report.png",
+        "modalImage": "Othram-Discover-Haplogroup-Report-Page-1600.png"
+      },
+      {
+        "name": "Ortham Discover Haplogroup Report Page",
+        "image": "Othram-Discover-Haplogroup-Report-2.png",
+        "modalImage": "Othram-Discover-Haplogroup-Report-Page-1600.png"
+      },
+      {
+        "name": "Ortham Discover Landing Page",
+        "image": "Othram-Discover-Landing-Page.png",
+        "modalImage": "Othram-Discover-Landing-Page-1600.png"
+      },
+      {
+        "name": "Ortham Discover Landing Page",
+        "image": "Othram-Discover-Landing-Page-2.png",
+        "modalImage": "Othram-Discover-Landing-Page-1600.png"
+      },
+      {
+        "name": "Ortham Discover Landing Page",
+        "image": "Othram-Discover-Landing-Page-3.png",
+        "modalImage": "Othram-Discover-Landing-Page-1600.png"
+      },
+      {
+        "name": "Ortham Discover Identity Details Page",
+        "image": "Othram-Discover-Identity-Details.png",
+        "modalImage": "Othram-Discover-Identity-Details-1600.png"
+      },
+      {
+        "name": "Ortham Discover Identity Details Page",
+        "image": "Othram-Discover-Identity-Details-2.png",
+        "modalImage": "Othram-Discover-Identity-Details-1600.png"
+      },
+      {
+        "name": "Ortham Discover Identity Details Page",
+        "image": "Othram-Discover-Identity-Details-3.png",
+        "modalImage": "Othram-Discover-Identity-Details-1600.png"
+      },
+      {
+        "name": "Ortham Discover Identity Details Page",
+        "image": "Othram-Discover-Identity-Details-4.png",
+        "modalImage": "Othram-Discover-Identity-Details-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Rental Moving Boxes",
+    "desc": "This is a static mockup for a rental moving boxes website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/Rental-Moving-Boxes-Desktop/",
+    "slides": [
+      {
+        "name": "Rental Moving Boxes Home Page",
+        "image": "Rental-Moving-Boxes-home.png",
+        "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      },
+      {
+        "name": "Rental Moving Boxes Home Page",
+        "image": "Rental-Moving-Boxes-home-2.png",
+        "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      },
+      {
+        "name": "Rental Moving Boxes Home Page",
+        "image": "Rental-Moving-Boxes-home-3.png",
+        "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      },
+      {
+        "name": "Rental Moving Boxes Home Page",
+        "image": "Rental-Moving-Boxes-home-4.png",
+        "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      },
+      {
+        "name": "Rental Moving Boxes Home Page",
+        "image": "Rental-Moving-Boxes-home-5.png",
+        "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      }
+    ]
+  }
 ]
