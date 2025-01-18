@@ -5,6 +5,7 @@ function ModalSlideshowDesign({ slide, dir, lgShow, setLgShow }) {
     <Modal
       size="xl"
       show={lgShow}
+      scrollable={true}
       onHide={() => setLgShow(false)}
       dialogClassName="modal-90w"
       aria-labelledby="example-custom-modal-styling-title"
