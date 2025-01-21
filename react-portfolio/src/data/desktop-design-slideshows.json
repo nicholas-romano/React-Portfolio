@@ -2,7 +2,8 @@
   {
     "id": 8,
     "title": "Subaru CrossTrek 2024",
-    "desc": "This is a Landing page design for the 2024 Subaru CrossTrek. It was designed using Adobe Photoshop and Illustrator. Then it was developed using HTML5, CSS, Bootstrap, and JQuery.",
+    "url": "https://subaru-crosstrek-2024.netlify.app/",
+    "desc": "This is a Landing page design for the 2024 Subaru CrossTrek. It was designed using Adobe Photoshop and Illustrator. Then it was developed and deployed to Netlify using HTML5, CSS, Bootstrap, and JQuery.",
     "dir": "desktop-design-slideshows/Subaru-CrossTrek-Desktop/",
     "slides": [
       {
