@@ -1,6 +1,49 @@
 [
   {
-    "id": 1,
+    "id": 8,
+    "title": "Subaru CrossTrek 2024",
+    "desc": "This is a Landing page design for the 2024 Subaru CrossTrek. It was designed using Adobe Photoshop and Illustrator. Then it was developed using HTML5, CSS, Bootstrap, and JQuery.",
+    "dir": "desktop-design-slideshows/Subaru-CrossTrek-Desktop/",
+    "slides": [
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Overview.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Features.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Exterior-Design.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Interior-Design.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Multimedia.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Gallery.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      },
+      {
+        "name": "Subaru CrossTrek 2024",
+        "image": "Subaru-CrossTrek-Footer.png",
+        "modalImage": "Subaru-CrossTrek-One-Column-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
     "title": "Atlantim",
     "desc": "This is a static mockup for a service provider website. It was designed using Adobe Photoshop.",
     "dir": "desktop-design-slideshows/Atlantim-Desktop/",
@@ -38,7 +81,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Cruneo",
     "desc": "This is a static mockup design for a German travel accomodations website. It was designed using Adobe Photoshop.",
     "dir": "desktop-design-slideshows/Cruneo-Desktop/",
@@ -66,7 +109,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "eDocs",
     "desc": "This is a static mockup for a document management website. It was designed using Adobe Photoshop.",
     "dir": "desktop-design-slideshows/eDocs-Desktop/",
@@ -127,7 +170,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 3,
     "title": "Othram Discover",
     "desc": "This is a static mockup for a DNA analysis and forensics website. It was designed using Adobe Photoshop.",
     "dir": "desktop-design-slideshows/Othram-Discover-Desktop/",
@@ -180,7 +223,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 2,
     "title": "Rental Moving Boxes",
     "desc": "This is a static mockup for a rental moving boxes website. It was designed using Adobe Photoshop.",
     "dir": "desktop-design-slideshows/Rental-Moving-Boxes-Desktop/",
@@ -209,6 +252,44 @@
         "name": "Rental Moving Boxes Home Page",
         "image": "Rental-Moving-Boxes-home-5.png",
         "modalImage": "Rental-Moving-Boxes-Home-Page-1600.png"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "IEM",
+    "desc": "This is a static mockup for a government emergency response organization website. It was designed using Adobe Photoshop.",
+    "dir": "desktop-design-slideshows/IEM-Desktop/",
+    "slides": [
+      {
+        "name": "IEM Home Page Top",
+        "image": "IEM-home.png",
+        "modalImage": "IEM-home-1600.png"
+      },
+      {
+        "name": "IEM Overview",
+        "image": "IEM-overview.png",
+        "modalImage": "IEM-home-1600.png"
+      },
+      {
+        "name": "IEM Services",
+        "image": "IEM-services.png",
+        "modalImage": "IEM-home-1600.png"
+      },
+      {
+        "name": "IEM News",
+        "image": "IEM-news.png",
+        "modalImage": "IEM-home-1600.png"
+      },
+      {
+        "name": "IEM Blog",
+        "image": "IEM-blog.png",
+        "modalImage": "IEM-home-1600.png"
+      },
+      {
+        "name": "IEM Awards and Certifications",
+        "image": "IEM-awards.png",
+        "modalImage": "IEM-home-1600.png"
       }
     ]
   }

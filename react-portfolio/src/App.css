@@ -31,6 +31,10 @@ main {
   z-index: 1;
 }
 
+.linked-image {
+  cursor: pointer;
+}
+
 header {
   background-color: #ebebeb;
   border-bottom: 2px solid #262b5e;
