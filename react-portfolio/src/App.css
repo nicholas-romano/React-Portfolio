@@ -108,6 +108,8 @@ header img {
 }
 #banner .resume-download {
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 #banner .resume-download img {
   float: right;
