@@ -39,17 +39,6 @@ function Headline() {
           <br />
           &dArr;
         </button>
-
-        {/* <a
-          href="https://the-wild-oasis-swart-mu.vercel.app/"
-          target="_blank"
-          title="The Wild Oasis"
-          rel="noopener noreferrer"
-        >
-          <button type="button" class="btn btn-primary">
-            See project &gt;&gt;
-          </button>
-        </a> */}
       </div>
     </section>
   );
