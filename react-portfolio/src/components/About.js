@@ -16,20 +16,20 @@ const About = () => {
                   HTML5, CSS3, JavaScript, JQuery and Bootstrap, and
                   architectures such as ReactJS, ExpressJS, NodeJS and ASP.NET,
                   and back-end programming such as Java and PHP, and
-                  implementing connections to RESTful APIs using Spring Boot and
-                  data modeling technologies such as Sequelize and Mongoose in
-                  connection to databases such as MongoDB and MySQL. Strengths
-                  include a passion for creativity, dedication to
-                  problem-solving, and commitment to quality work. Excited about
-                  the next opportunity to leverage his skills and experience to
-                  assist a company or organization succeed.
+                  implementing connections to RESTful APIs and data modeling
+                  technologies such as Sequelize and Mongoose in connection to
+                  databases such as MongoDB and MySQL. Strengths include a
+                  passion for creativity, dedication to problem-solving, and
+                  commitment to quality work. Excited about the next opportunity
+                  to leverage his skills and experience to assist a company or
+                  organization succeed.
                 </p>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="column-content">
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/Portfolio-Photo.jpg`}
+                  src={`${process.env.PUBLIC_URL}/images/Nicholas-Romano-Portfolio-Photo.jpg`}
                   className="img-fluid"
                   alt="Nicholas Romano Profile"
                 />
