@@ -12,21 +12,21 @@ function Headline() {
       style={{
         backgroundImage: `url(${
           process.env.PUBLIC_URL +
-          "/images/headline-photos/The-Wild-Oasis-Cover.png"
+          "/images/headline-photos/mountain_peak_summit.jpg"
         })`,
       }}
     >
       <div className="headline-text">
         <div className="headline-title">
-          <h1>The Wild Oasis</h1>
-          <h3>Welcome to paradise</h3>
+          <h1>World Traveler</h1>
+          <h3>Your Next Destination Awaits!</h3>
         </div>
 
         <div className="headline-subtext">
           <h5>
-            My latest featured project is a luxury cabin rental application with
-            beautiful cabin photos, search filters, interactive calendars, and
-            booking managment forms.
+            The World Traveler application uses a global interactive map that
+            the user can click on and add a geolocation pin that they can use to
+            save their experiences.
           </h5>
         </div>
 
