@@ -134,6 +134,10 @@ header img {
   padding-top: 150px;
   height: 1000px;
 }
+
+#headline .headline-logo {
+  margin-bottom: 20px;
+}
 #headline .headline-text {
   max-width: 600px;
   margin: auto;
@@ -148,10 +152,11 @@ header img {
 }
 
 #headline .headline-text .headline-title h1 {
-  font-family: "Bonheur Royale", serif;
+  /* font-family: "Bonheur Royale", serif; */
+  font-family: Karla, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 110px;
+  font-size: 84px;
   color: white;
   text-shadow: #000 2px 2px 2px;
 }

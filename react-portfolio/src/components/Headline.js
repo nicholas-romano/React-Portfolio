@@ -12,13 +12,22 @@ function Headline() {
       style={{
         backgroundImage: `url(${
           process.env.PUBLIC_URL +
-          "/images/headline-photos/mountain_peak_summit.jpg"
+          "/images/headline-photos/Mountains_Peak_Filter.png"
         })`,
       }}
     >
+      <div className="headline-logo">
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/headline-photos/world-traveler.png"
+          }
+          alt="World Traveler Logo"
+          width="400"
+        />
+      </div>
       <div className="headline-text">
         <div className="headline-title">
-          <h1>World Traveler</h1>
           <h3>Your Next Destination Awaits!</h3>
         </div>
 
