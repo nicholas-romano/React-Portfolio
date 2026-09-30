@@ -25,7 +25,8 @@ const Header = () => {
           <label>
             <a
               href={
-                process.env.PUBLIC_URL + "/Documents/Nicholas-Romano-Resume.pdf"
+                process.env.PUBLIC_URL +
+                "/Documents/Nicholas-Romano-Development-Resume.pdf"
               }
             >
               Resumé
