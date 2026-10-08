@@ -1,0 +1,52 @@
+{
+  "id": 20,
+  "title": "Song Search App",
+  "liveSite": "https://song-search-app.netlify.app/",
+  "gitRepo": "https://github.com/nicholas-romano/Song-Search",
+  "projectImg": "Song-Search-app.png",
+  "description": "The Song Search app uses the Shazam API to search for songs and artists and returns data such as artist name, song name, album name, and link to the song collections on Apple Music. The app utilizes ReactJS to make REST API calls to the Shazam Music Server and stores the most recent search results in the browser's session storage. The application will first check to see if the search query matches the session storage data, if it does, it uses that. If not, it will make a call to the API. If the call to the API fails, sample data is used from a static JSON file.",
+  "technologies": [
+    {
+      "techImg": "html5-logo.png",
+      "techName": "HTML5"
+    },
+    {
+      "techImg": "css3-logo.jpg",
+      "techName": "CSS3"
+    },
+    {
+      "techImg": "nodejs-logo.jpg",
+      "techName": "Node JS"
+    },
+    {
+      "techImg": "npm-logo.png",
+      "techName": "Node Package Manager"
+    },
+    {
+      "techImg": "react-js-logo.png",
+      "techName": "React JS"
+    },
+    {
+      "techImg": "rest-api-logo.png",
+      "techName": "Rest API"
+    },
+    {
+      "techImg": "javascript_logo.png",
+      "techName": "Javascript"
+    },
+    {
+      "techImg": "react-bootstrap-logo-icon.png",
+      "techName": "React Bootstrap"
+    },
+    {
+      "techImg": "github-logo.png",
+      "techName": "Git Hub"
+    }
+  ],
+  "software": [
+    {
+      "techImg": "visual-studio-logo.png",
+      "techName": "Visual Studio"
+    }
+  ]
+}

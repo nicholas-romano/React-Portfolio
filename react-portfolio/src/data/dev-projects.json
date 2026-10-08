@@ -1,6 +1,6 @@
 [
   {
-    "id": 23,
+    "id": 15,
     "title": "World Traveler",
     "liveSite": "https://world-traveler-tracker.netlify.app/",
     "gitRepo": "https://github.com/nicholas-romano/World-Traveler",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 14,
     "title": "Cinematic Discovery",
     "liveSite": "https://cinematic-discovery.netlify.app/",
     "gitRepo": "https://github.com/nicholas-romano/Cinematic-Discovery",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 13,
     "title": "Piatto Delizioso Pizzeria",
     "liveSite": "https://piatto-delizioso-pizzeria.netlify.app/",
     "gitRepo": "https://github.com/nicholas-romano/Piatto-Delizioso",
@@ -184,59 +184,7 @@
     ]
   },
   {
-    "id": 20,
-    "title": "Song Search App",
-    "liveSite": "https://song-search-app.netlify.app/",
-    "gitRepo": "https://github.com/nicholas-romano/Song-Search",
-    "projectImg": "Song-Search-app.png",
-    "description": "The Song Search app uses the Shazam API to search for songs and artists and returns data such as artist name, song name, album name, and link to the song collections on Apple Music. The app utilizes ReactJS to make REST API calls to the Shazam Music Server and stores the most recent search results in the browser's session storage. The application will first check to see if the search query matches the session storage data, if it does, it uses that. If not, it will make a call to the API. If the call to the API fails, sample data is used from a static JSON file.",
-    "technologies": [
-      {
-        "techImg": "html5-logo.png",
-        "techName": "HTML5"
-      },
-      {
-        "techImg": "css3-logo.jpg",
-        "techName": "CSS3"
-      },
-      {
-        "techImg": "nodejs-logo.jpg",
-        "techName": "Node JS"
-      },
-      {
-        "techImg": "npm-logo.png",
-        "techName": "Node Package Manager"
-      },
-      {
-        "techImg": "react-js-logo.png",
-        "techName": "React JS"
-      },
-      {
-        "techImg": "rest-api-logo.png",
-        "techName": "Rest API"
-      },
-      {
-        "techImg": "javascript_logo.png",
-        "techName": "Javascript"
-      },
-      {
-        "techImg": "react-bootstrap-logo-icon.png",
-        "techName": "React Bootstrap"
-      },
-      {
-        "techImg": "github-logo.png",
-        "techName": "Git Hub"
-      }
-    ],
-    "software": [
-      {
-        "techImg": "visual-studio-logo.png",
-        "techName": "Visual Studio"
-      }
-    ]
-  },
-  {
-    "id": 19,
+    "id": 12,
     "title": "Employee Directory",
     "liveSite": "https://business-employee-directory.netlify.app/",
     "gitRepo": "https://github.com/nicholas-romano/Employee-Directory",
@@ -288,7 +236,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 11,
     "title": "Employee Tracker",
     "gitRepo": "https://github.com/nicholas-romano/Employee-Tracker",
     "projectImg": "Employee-Tracker_thumbnail.png",
@@ -327,7 +275,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Employee Summary Template Engine",
     "gitRepo": "https://github.com/nicholas-romano/Employee-Summary-Template-Engine",
     "projectImg": "Employee-Summary-Template-Engine_thumbnail.png",
@@ -374,7 +322,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "title": "README File Generator",
     "gitRepo": "https://github.com/nicholas-romano/README-File-Generator",
     "projectImg": "README-file-generator_thumbnail.png",
