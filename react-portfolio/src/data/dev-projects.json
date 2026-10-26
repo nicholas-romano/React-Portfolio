@@ -1,5 +1,65 @@
 [
   {
+    "id": 16,
+    "title": "GitHub Graph",
+    "liveSite": "https://github-graph.netlify.app/",
+    "gitRepo": "https://github.com/nicholas-romano/GitHub-Graph",
+    "projectImg": "GitHub-Graph_thumbnail.png",
+    "description": "GitHub Graph is an interactive web app that visualizes a GitHub user’s social network. You enter a username and then click the search button, and the app uses the GitHub REST API to fetch that user’s profile, followers, and the people they follow. It then draws the usernames inside circles displayed in a D3 force-directed graph with the searched user at the center. Circles are sized to fit each username and colored by relationship (follower, following, or mutual). You can drag the circles, hover your mouse over them to highlight connections, and click any node to open a modal with that user’s avatar, bio, location, and a link to their GitHub profile. The app is built with React and bootstrapped with Create React App. D3.js powers the force simulation and SVG rendering, while Redux Toolkit and React-Redux manage state, including async API calls with createAsyncThunk and a cache of fetched profiles. Styled-components handle the styling and theming. The code is organized into separate folders for components, async API logic, the Redux store, styles, and constants, and the app is deployed on Netlify with continuous deployment from GitHub.",
+    "technologies": [
+      {
+        "techImg": "react-js-logo.png",
+        "techName": "React JS"
+      },
+      {
+        "techImg": "React-Redux.png",
+        "techName": "React Redux"
+      },
+      {
+        "techImg": "d3js-logo.png",
+        "techName": "D3.js"
+      },
+      {
+        "techImg": "rest-api-logo.png",
+        "techName": "Rest API"
+      },
+      {
+        "techImg": "nodejs-logo.jpg",
+        "techName": "Node JS"
+      },
+      {
+        "techImg": "npm-logo.png",
+        "techName": "Node Package Manager"
+      },
+      {
+        "techImg": "html5-logo.png",
+        "techName": "HTML5"
+      },
+      {
+        "techImg": "styled-components-logo.png",
+        "techName": "Styled Components"
+      },
+      {
+        "techImg": "css3-logo.jpg",
+        "techName": "CSS3"
+      },
+      {
+        "techImg": "typescript-logo.png",
+        "techName": "TypeScript"
+      },
+      {
+        "techImg": "github-logo.png",
+        "techName": "Git Hub"
+      }
+    ],
+    "software": [
+      {
+        "techImg": "visual-studio-logo.png",
+        "techName": "Visual Studio"
+      }
+    ]
+  },
+  {
     "id": 15,
     "title": "World Traveler",
     "liveSite": "https://world-traveler-tracker.netlify.app/",
